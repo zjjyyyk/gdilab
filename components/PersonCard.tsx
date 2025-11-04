@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/lib/utils'
+
 interface Person {
   name: string
   photo: string
@@ -11,7 +13,7 @@ export default function PersonCard({ person }: { person: Person }) {
       {/* 圆形头像 */}
       <div className="rounded-full overflow-hidden mb-3 bg-gray-200" style={{ width: '210px', height: '210px' }}>
         <img
-          src={person.photo}
+          src={getAssetPath(person.photo)}
           alt={person.name}
           className="w-full h-full object-cover"
         />

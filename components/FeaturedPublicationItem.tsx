@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/lib/utils'
+
 interface FeaturedPublication {
   id: number
   authors: string
@@ -15,7 +17,7 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
       {/* 左侧图片区域 */}
       <div className="flex-shrink-0" style={{ width: '270px' }}>
         <img
-          src={paper.image}
+          src={getAssetPath(paper.image)}
           alt={paper.title}
           className="w-full h-full object-cover"
         />

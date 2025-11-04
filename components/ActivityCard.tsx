@@ -1,3 +1,5 @@
+import { getAssetPath } from '@/lib/utils'
+
 interface Activity {
   id: number
   image: string
@@ -10,7 +12,7 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
       {/* 图片区域 */}
       <div className="w-full h-48 bg-gray-200">
         <img
-          src={activity.image}
+          src={getAssetPath(activity.image)}
           alt={activity.description}
           className="w-full h-full object-cover"
         />

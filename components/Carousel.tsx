@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { siteConfig } from '@/config/site.config'
+import { getAssetPath } from '@/lib/utils'
 
 export default function Carousel({ images }: { images: string[] }) {
   const [current, setCurrent] = useState(0)
@@ -29,7 +30,7 @@ export default function Carousel({ images }: { images: string[] }) {
       {/* 图片 */}
       <div className="relative w-full" style={{ height: `${siteConfig.carouselHeight}px` }}>
         <img
-          src={images[current]}
+          src={getAssetPath(images[current])}
           alt={`Slide ${current + 1}`}
           className="w-full h-full object-cover object-center"
         />

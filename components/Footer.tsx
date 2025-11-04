@@ -1,4 +1,5 @@
 import { siteConfig } from '@/config/site.config'
+import { getAssetPath } from '@/lib/utils'
 
 export default function Footer() {
   return (
@@ -19,7 +20,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex flex-col items-center hover:text-primary transition-colors"
             >
-              <img src="/xiaohongshu.svg" alt="小红书" className="w-6 h-6 mb-1" />
+              <img src={getAssetPath("/xiaohongshu.svg")} alt="小红书" className="w-6 h-6 mb-1" />
               <span className="text-xs">小红书</span>
             </a>
             <a 
@@ -28,7 +29,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex flex-col items-center hover:text-primary transition-colors"
             >
-              <img src="/zhihu.svg" alt="知乎" className="w-6 h-6 mb-1" />
+              <img src={getAssetPath("/zhihu.svg")} alt="知乎" className="w-6 h-6 mb-1" />
               <span className="text-xs">知乎</span>
             </a>
             <a 
@@ -37,7 +38,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex flex-col items-center hover:text-primary transition-colors"
             >
-              <img src="/wechat.svg" alt="微信公众号" className="w-6 h-6 mb-1" />
+              <img src={getAssetPath("/wechat.svg")} alt="微信公众号" className="w-6 h-6 mb-1" />
               <span className="text-xs">微信公众号</span>
             </a>
           </div>
