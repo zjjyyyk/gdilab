@@ -5,20 +5,29 @@ import { getAssetPath } from '@/lib/utils'
 
 export default function Carousel({ images }: { images: string[] }) {
   const [current, setCurrent] = useState(0)
+  const [direction, setDirection] = useState<'left' | 'right'>('right')
+  const [autoPlay, setAutoPlay] = useState(true)
 
   // 自动切换
   useEffect(() => {
+    if (!autoPlay) return
+    
     const timer = setInterval(() => {
+      setDirection('right')
       setCurrent((prev) => (prev + 1) % images.length)
     }, siteConfig.carouselInterval)
     return () => clearInterval(timer)
-  }, [images.length])
+  }, [images.length, autoPlay])
 
   const goToPrevious = () => {
+    setAutoPlay(false)
+    setDirection('left')
     setCurrent((current - 1 + images.length) % images.length)
   }
 
   const goToNext = () => {
+    setAutoPlay(false)
+    setDirection('right')
     setCurrent((current + 1) % images.length)
   }
 
@@ -27,13 +36,28 @@ export default function Carousel({ images }: { images: string[] }) {
       className="relative w-full overflow-hidden bg-gray-100"
       style={{ maxHeight: `${siteConfig.carouselHeight}px` }}
     >
-      {/* 图片 */}
+      {/* 图片容器 */}
       <div className="relative w-full" style={{ height: `${siteConfig.carouselHeight}px` }}>
-        <img
-          src={getAssetPath(images[current])}
-          alt={`Slide ${current + 1}`}
-          className="w-full h-full object-cover object-center"
-        />
+        <div 
+          className="flex h-full"
+          style={{ 
+            transform: `translateX(-${current * 100}%)`,
+            transition: 'transform 0.5s ease-in-out',
+          }}
+        >
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="w-full h-full flex-shrink-0"
+            >
+              <img
+                src={getAssetPath(image)}
+                alt={`Slide ${index + 1}`}
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     
       {/* 前一张按钮 */}
@@ -63,7 +87,10 @@ export default function Carousel({ images }: { images: string[] }) {
         {images.map((_, index) => (
           <button
             key={index}
-            onClick={() => setCurrent(index)}
+            onClick={() => {
+              setAutoPlay(false)
+              setCurrent(index)
+            }}
             className={`w-2 h-2 rounded-full transition-all duration-200 ${
               index === current ? 'bg-white w-8' : 'bg-white/50'
             }`}

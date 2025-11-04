@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { siteConfig } from '@/config/site.config'
+import { getAssetPath } from '@/lib/utils'
 
 export default function Navbar() {
   const navItems = [
@@ -17,8 +17,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* 左侧：Logo和实验室名称 */}
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <Image 
-              src="/images/logo.svg" 
+            <img 
+              src={getAssetPath("/images/logo.svg")}
               alt="Lab Logo" 
               width={40} 
               height={40}
