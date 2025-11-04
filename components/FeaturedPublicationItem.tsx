@@ -22,7 +22,7 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
       </div>
       
       {/* 右侧内容区域 */}
-      <div className="flex-1 p-3">
+      <div className="flex-1" style={{ padding: '12px 12px 12px 32px' }}>
         <p style={{ margin: '2px 0' }}>
           <span className="font-semibold text-gray-700">Authors: </span>
           <span className="text-gray-600">{paper.authors}</span>

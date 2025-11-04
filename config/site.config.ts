@@ -1,10 +1,10 @@
 export const siteConfig = {
   // 基本信息
-  labName: "智能计算实验室",
-  labNameEn: "Intelligent Computing Lab",
+  labName: "Graph Data Intelligence Lab",
+  labNameEn: "Graph Data Intelligence Lab",
 
   // 布局配置
-  carouselHeight: 500,           // 轮播图最大高度(px)
+  carouselHeight: 650,           // 轮播图最大高度(px)
   carouselInterval: 5000,        // 自动切换间隔(ms)
   peopleGridCols: 3,             // 人员卡片最大列数
   activityGridCols: 4,           // 活动卡片最大列数
@@ -25,5 +25,5 @@ export const siteConfig = {
 
   // 备案信息
   icp: '京ICP备12345678号-1',
-  copyright: '© 2024 智能计算实验室 版权所有'
+  copyright: '© 2026 Graph Data Intelligence Lab. All Rights Reserved.'
 }
