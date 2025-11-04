@@ -1,0 +1,47 @@
+[
+  {
+    "authors": "Zhang Wei, Li Ming, Wang Fang",
+    "title": "Advanced Deep Learning Techniques for Computer Vision Applications",
+    "venue": "CVPR 2025",
+    "year": 2025,
+    "image": "/images/publications/pub1.jpg",
+    "pdf": "/papers/cvpr2025.pdf",
+    "code": "https://github.com/lab/project1"
+  },
+  {
+    "authors": "Li Ming, Chen Jing",
+    "title": "Efficient Neural Network Architectures for Real-time Processing",
+    "venue": "ICCV 2025",
+    "year": 2025,
+    "image": "/images/publications/pub2.jpg",
+    "pdf": "/papers/iccv2025.pdf",
+    "code": null
+  },
+  {
+    "authors": "Wang Fang, Zhang Wei, Liu Yang",
+    "title": "Multimodal Learning with Attention Mechanisms",
+    "venue": "NeurIPS 2024",
+    "year": 2024,
+    "image": "/images/publications/pub3.jpg",
+    "pdf": null,
+    "code": "https://github.com/lab/project3"
+  },
+  {
+    "authors": "Chen Jing, Li Ming",
+    "title": "Self-supervised Learning for Visual Representation",
+    "venue": "ICML 2024",
+    "year": 2024,
+    "image": "/images/publications/pub4.jpg",
+    "pdf": "/papers/icml2024.pdf",
+    "code": "https://github.com/lab/project4"
+  },
+  {
+    "authors": "Liu Yang, Wang Fang",
+    "title": "Generative Models for Data Augmentation",
+    "venue": "AAAI 2024",
+    "year": 2024,
+    "image": "/images/publications/pub5.jpg",
+    "pdf": "/papers/aaai2024.pdf",
+    "code": null
+  }
+]

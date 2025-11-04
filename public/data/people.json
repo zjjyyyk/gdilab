@@ -1,0 +1,84 @@
+{
+  "professors": [
+    {
+      "name": "张伟教授",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "计算机视觉、深度学习、模式识别",
+      "email": "zhangwei@university.edu.cn"
+    },
+    {
+      "name": "李明教授",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "机器学习、自然语言处理",
+      "email": "liming@university.edu.cn"
+    }
+  ],
+  "postdocs": [
+    {
+      "name": "王芳博士",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "多模态学习、迁移学习",
+      "email": "wangfang@university.edu.cn"
+    }
+  ],
+  "phds": [
+    {
+      "name": "陈静",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "生成式模型、对抗学习",
+      "email": "chenjing@university.edu.cn"
+    },
+    {
+      "name": "刘阳",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "图神经网络、知识图谱",
+      "email": "liuyang@university.edu.cn"
+    },
+    {
+      "name": "赵敏",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "强化学习、自主智能",
+      "email": "zhaomin@university.edu.cn"
+    }
+  ],
+  "masters": [
+    {
+      "name": "孙浩",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "目标检测、语义分割",
+      "email": "sunhao@university.edu.cn"
+    },
+    {
+      "name": "周丽",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "文本生成、对话系统",
+      "email": "zhouli@university.edu.cn"
+    },
+    {
+      "name": "吴强",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "三维重建、SLAM",
+      "email": null
+    },
+    {
+      "name": "郑红",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "时序预测、异常检测",
+      "email": "zhenghong@university.edu.cn"
+    }
+  ],
+  "undergrads": [
+    {
+      "name": "钱磊",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "机器学习基础",
+      "email": null
+    },
+    {
+      "name": "孔雪",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "计算机视觉应用",
+      "email": null
+    }
+  ]
+}

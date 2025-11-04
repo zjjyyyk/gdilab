@@ -1,0 +1,82 @@
+[
+  {
+    "year": 2025,
+    "authors": "Zhang Wei, Li Ming, Wang Fang",
+    "title": "Advanced Deep Learning Techniques for Computer Vision Applications",
+    "venue": "CVPR 2025",
+    "pdf": "/papers/cvpr2025.pdf",
+    "code": "https://github.com/lab/project1",
+    "selected": true,
+    "class": "class1"
+  },
+  {
+    "year": 2025,
+    "authors": "Li Ming, Chen Jing",
+    "title": "Efficient Neural Network Architectures for Real-time Processing",
+    "venue": "ICCV 2025",
+    "pdf": "/papers/iccv2025.pdf",
+    "code": null,
+    "selected": true,
+    "class": "class2"
+  },
+  {
+    "year": 2024,
+    "authors": "Wang Fang, Zhang Wei, Liu Yang",
+    "title": "Multimodal Learning with Attention Mechanisms",
+    "venue": "NeurIPS 2024",
+    "pdf": null,
+    "code": "https://github.com/lab/project3",
+    "selected": true,
+    "class": "class1"
+  },
+  {
+    "year": 2024,
+    "authors": "Chen Jing, Li Ming",
+    "title": "Self-supervised Learning for Visual Representation",
+    "venue": "ICML 2024",
+    "pdf": "/papers/icml2024.pdf",
+    "code": "https://github.com/lab/project4",
+    "selected": true,
+    "class": "class3"
+  },
+  {
+    "year": 2024,
+    "authors": "Liu Yang, Wang Fang",
+    "title": "Generative Models for Data Augmentation",
+    "venue": "AAAI 2024",
+    "pdf": "/papers/aaai2024.pdf",
+    "code": null,
+    "selected": true,
+    "class": "class2"
+  },
+  {
+    "year": 2024,
+    "authors": "Zhang Wei, Chen Jing, Li Ming",
+    "title": "Transfer Learning in Low-resource Scenarios",
+    "venue": "IJCAI 2024",
+    "pdf": "/papers/ijcai2024.pdf",
+    "code": "https://github.com/lab/project6",
+    "selected": false,
+    "class": "class3"
+  },
+  {
+    "year": 2023,
+    "authors": "Li Ming, Zhang Wei",
+    "title": "Robust Machine Learning against Adversarial Attacks",
+    "venue": "CVPR 2023",
+    "pdf": "/papers/cvpr2023.pdf",
+    "code": null,
+    "selected": false,
+    "class": "class1"
+  },
+  {
+    "year": 2023,
+    "authors": "Wang Fang, Liu Yang, Chen Jing",
+    "title": "Graph Neural Networks for Knowledge Representation",
+    "venue": "KDD 2023",
+    "pdf": null,
+    "code": "https://github.com/lab/project8",
+    "selected": false,
+    "class": "class2"
+  }
+]
