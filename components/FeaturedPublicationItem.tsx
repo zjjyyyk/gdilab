@@ -31,6 +31,7 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
           src={getAssetPath(paper.image)}
           alt={paper.title}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
       

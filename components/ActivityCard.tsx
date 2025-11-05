@@ -15,6 +15,7 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
           src={getAssetPath(activity.image)}
           alt={activity.description}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
     

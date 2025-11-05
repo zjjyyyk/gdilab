@@ -17,6 +17,7 @@ export default function PersonCard({ person }: { person: Person }) {
           src={getAssetPath(person.photo)}
           alt={person.name}
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
     

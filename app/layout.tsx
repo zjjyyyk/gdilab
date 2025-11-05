@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import dynamic from 'next/dynamic';
 import localFont from 'next/font/local';
 import "./globals.css";
 import "./nprogress.css";
 import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
 import TopLoadingBar from '@/components/TopLoadingBar'
 import { siteConfig } from '@/config/site.config'
+
+const Footer = dynamic(() => import('@/components/Footer'), {
+  loading: () => <div className="h-16" />,
+})
 
 const montserrat = localFont({
   src: '../public/fonts/Montserrat-Regular.ttf',
