@@ -1,6 +1,7 @@
 import Carousel from '@/components/Carousel'
 import FeaturedPublicationItem from '@/components/FeaturedPublicationItem'
 import TitleDecorator from '@/components/TitleDecorator'
+import VisitedScholarsMap from '@/components/VisitedScholarsMap'
 import featuredPublications from '../public/data/featured-publications.json'
 
 export default function Home() {
@@ -29,6 +30,21 @@ export default function Home() {
             {featuredPublications.map((paper: any, index: number) => (
               <FeaturedPublicationItem key={index} paper={paper} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Visited Scholars Map */}
+      <section className="py-8 sm:py-12 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+            Visited Scholars
+          </h2>
+          {/* 装饰块 */}
+          <TitleDecorator />
+        
+          <div className="mt-6 sm:mt-8">
+            <VisitedScholarsMap />
           </div>
         </div>
       </section>

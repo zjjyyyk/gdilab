@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 :root {
   --background: #ffffff;
@@ -42,5 +43,11 @@ body {
 /* 防止移动端水平滚动 */
 html, body {
   overflow-x: hidden;
+  width: 100%;
+}
+
+/* Leaflet地图样式修复 */
+.leaflet-container {
+  height: 100%;
   width: 100%;
 }
