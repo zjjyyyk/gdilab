@@ -6,7 +6,6 @@ interface Publication {
   venue: string
   pdf?: string | null
   code?: string | null
-  selected: boolean
 }
 
 export default function PublicationItem({ paper }: { paper: Publication }) {

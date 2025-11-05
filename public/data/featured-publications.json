@@ -6,7 +6,8 @@
     "year": 2025,
     "image": "/images/publications/pub1.jpg",
     "pdf": "/papers/cvpr2025.pdf",
-    "code": "https://github.com/lab/project1"
+    "code": "https://github.com/lab/project1",
+    "class": "class1"
   },
   {
     "authors": "Li Ming, Chen Jing",
@@ -15,7 +16,8 @@
     "year": 2025,
     "image": "/images/publications/pub2.jpg",
     "pdf": "/papers/iccv2025.pdf",
-    "code": null
+    "code": null,
+    "class": "class2"
   },
   {
     "authors": "Wang Fang, Zhang Wei, Liu Yang",
@@ -24,7 +26,8 @@
     "year": 2024,
     "image": "/images/publications/pub3.jpg",
     "pdf": null,
-    "code": "https://github.com/lab/project3"
+    "code": "https://github.com/lab/project3",
+    "class": "class1"
   },
   {
     "authors": "Chen Jing, Li Ming",
@@ -33,7 +36,8 @@
     "year": 2024,
     "image": "/images/publications/pub4.jpg",
     "pdf": "/papers/icml2024.pdf",
-    "code": "https://github.com/lab/project4"
+    "code": "https://github.com/lab/project4",
+    "class": "class3"
   },
   {
     "authors": "Liu Yang, Wang Fang",
@@ -42,6 +46,7 @@
     "year": 2024,
     "image": "/images/publications/pub5.jpg",
     "pdf": "/papers/aaai2024.pdf",
-    "code": null
+    "code": null,
+    "class": "class2"
   }
 ]

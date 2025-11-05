@@ -7,11 +7,22 @@ interface FeaturedPublication {
   venue: string
   year: number
   image: string
+  class?: string | null
   pdf?: string | null
   code?: string | null
 }
 
 export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPublication }) {
+  // 根据 class 返回对应的颜色
+  const getClassColor = (className: string) => {
+    const colors: { [key: string]: string } = {
+      'class1': '#10B981', // 绿色
+      'class2': '#3B82F6', // 蓝色
+      'class3': '#F59E0B', // 橙色
+    }
+    return colors[className] || '#6B7280' // 默认灰色
+  }
+
   return (
     <div className="border border-gray-300 rounded-lg bg-white hover:shadow-md transition-shadow duration-200 overflow-hidden flex" style={{ width: '100%', maxWidth: '1100px' }}>
       {/* 左侧图片区域 */}
@@ -37,6 +48,23 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
           <span className="font-semibold text-gray-700">Venue: </span>
           <span className="text-gray-600">{paper.venue}</span>
         </p>
+        {paper.class && (
+          <div style={{ margin: '6px 0' }}>
+            <span 
+              style={{ 
+                display: 'inline-block',
+                padding: '4px 12px',
+                borderRadius: '6px',
+                backgroundColor: getClassColor(paper.class),
+                color: 'white',
+                fontSize: '13px',
+                fontWeight: '500'
+              }}
+            >
+              {paper.class}
+            </span>
+          </div>
+        )}
       
         {(paper.pdf || paper.code) && (
           <div className="flex gap-4" style={{ marginTop: '4px' }}>

@@ -6,7 +6,6 @@
     "venue": "CVPR 2025",
     "pdf": "/papers/cvpr2025.pdf",
     "code": "https://github.com/lab/project1",
-    "selected": true,
     "class": "class1"
   },
   {
@@ -16,7 +15,6 @@
     "venue": "ICCV 2025",
     "pdf": "/papers/iccv2025.pdf",
     "code": null,
-    "selected": true,
     "class": "class2"
   },
   {
@@ -26,7 +24,6 @@
     "venue": "NeurIPS 2024",
     "pdf": null,
     "code": "https://github.com/lab/project3",
-    "selected": true,
     "class": "class1"
   },
   {
@@ -36,7 +33,6 @@
     "venue": "ICML 2024",
     "pdf": "/papers/icml2024.pdf",
     "code": "https://github.com/lab/project4",
-    "selected": true,
     "class": "class3"
   },
   {
@@ -46,7 +42,6 @@
     "venue": "AAAI 2024",
     "pdf": "/papers/aaai2024.pdf",
     "code": null,
-    "selected": true,
     "class": "class2"
   },
   {
@@ -56,7 +51,6 @@
     "venue": "IJCAI 2024",
     "pdf": "/papers/ijcai2024.pdf",
     "code": "https://github.com/lab/project6",
-    "selected": false,
     "class": "class3"
   },
   {
@@ -66,7 +60,6 @@
     "venue": "CVPR 2023",
     "pdf": "/papers/cvpr2023.pdf",
     "code": null,
-    "selected": false,
     "class": "class1"
   },
   {
@@ -76,7 +69,6 @@
     "venue": "KDD 2023",
     "pdf": null,
     "code": "https://github.com/lab/project8",
-    "selected": false,
     "class": "class2"
   }
 ]
