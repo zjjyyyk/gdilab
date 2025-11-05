@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import "./globals.css";
 import "./fonts.css";
 import "./nprogress.css";
@@ -20,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="min-h-screen flex flex-col" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-        <TopLoadingBar />
+        <Suspense fallback={null}>
+          <TopLoadingBar />
+        </Suspense>
         <Navbar />
         <main className="flex-1">
           {children}
