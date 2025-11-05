@@ -16,6 +16,25 @@ interface VisitedScholar {
   research: string
 }
 
+// 地图源配置
+const MAP_SOURCES = [
+  {
+    name: 'OpenStreetMap',
+    url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; OpenStreetMap contributors'
+  },
+  {
+    name: 'CartoDB',
+    url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  },
+  {
+    name: 'OpenTopoMap',
+    url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+    attribution: '&copy; OpenStreetMap contributors, SRTM | &copy; OpenTopoMap'
+  }
+]
+
 // 动态导入地图组件以避免SSR问题
 const MapContainer = dynamic(() => import('react-leaflet').then(mod => mod.MapContainer), {
   ssr: false,
@@ -73,6 +92,7 @@ const getRedIcon = () => {
 function MapComponent() {
   const [selectedScholar, setSelectedScholar] = useState<VisitedScholar | null>(null)
   const [isClient, setIsClient] = useState(false)
+  const [mapSource, setMapSource] = useState(0)
 
   useEffect(() => {
     setIsClient(true)
@@ -108,9 +128,29 @@ function MapComponent() {
       zoomControl={true}
     >
       <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution={MAP_SOURCES[mapSource].attribution}
+        url={MAP_SOURCES[mapSource].url}
       />
+
+      {/* 地图源切换按钮 */}
+      <div style={{
+        position: 'absolute',
+        top: '10px',
+        right: '10px',
+        zIndex: 1000,
+        background: 'white',
+        padding: '8px 12px',
+        borderRadius: '4px',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+        fontSize: '12px',
+        cursor: 'pointer'
+      }}
+      onClick={() => setMapSource((prev) => (prev + 1) % MAP_SOURCES.length)}
+      >
+        📍 {MAP_SOURCES[mapSource].name}
+        <br />
+        <span style={{ fontSize: '10px', color: '#666' }}>点击切换地图源</span>
+      </div>
 
       {/* 访问学者标记 */}
       {visitedScholars.map((scholar: VisitedScholar) => (
