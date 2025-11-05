@@ -9,6 +9,7 @@ export default function People() {
     { key: 'phds', title: 'Ph.D. Students', data: peopleData.phds },
     { key: 'masters', title: 'Master Students', data: peopleData.masters },
     { key: 'undergrads', title: 'Undergraduate Students', data: peopleData.undergrads },
+    { key: 'alumni', title: 'Alumni', data: peopleData.alumni },
   ]
 
   return (

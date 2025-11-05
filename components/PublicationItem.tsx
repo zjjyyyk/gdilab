@@ -24,10 +24,6 @@ export default function PublicationItem({ paper }: { paper: Publication }) {
         <span className="font-semibold text-gray-700">Venue: </span>
         <span className="text-gray-600">{paper.venue}</span>
       </p>
-      <p style={{ margin: '2px 0 4px 0' }}>
-        <span className="font-semibold text-gray-700">Year: </span>
-        <span className="text-gray-600">{paper.year}</span>
-      </p>
     
       {(paper.pdf || paper.code) && (
         <div className="flex gap-4" style={{ marginTop: '4px' }}>

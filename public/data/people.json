@@ -80,5 +80,49 @@
       "research": "计算机视觉应用",
       "email": null
     }
+  ],
+  "alumni": [
+    {
+      "name": "张华",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "图像识别、目标跟踪",
+      "email": "zhanghua@alumni.edu.cn",
+      "destination": "Google Research"
+    },
+    {
+      "name": "李娜",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "自然语言处理、情感分析",
+      "email": "lina@alumni.edu.cn",
+      "destination": "Microsoft AI Lab"
+    },
+    {
+      "name": "王涛",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "推荐系统、协同过滤",
+      "email": "wangtao@alumni.edu.cn",
+      "destination": "ByteDance"
+    },
+    {
+      "name": "赵雯",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "语音识别、音频处理",
+      "email": null,
+      "destination": "Alibaba DAMO Academy"
+    },
+    {
+      "name": "刘凯",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "强化学习、游戏AI",
+      "email": "liukai@alumni.edu.cn",
+      "destination": "Tencent AI Lab"
+    },
+    {
+      "name": "陈晨",
+      "photo": "/images/people/person-placeholder.jpg",
+      "research": "知识蒸馏、模型压缩",
+      "email": "chenchen@alumni.edu.cn",
+      "destination": "Huawei Noah's Ark Lab"
+    }
   ]
 }

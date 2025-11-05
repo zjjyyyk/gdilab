@@ -5,6 +5,7 @@ interface Person {
   photo: string
   research: string
   email?: string | null
+  destination?: string | null
 }
 
 export default function PersonCard({ person }: { person: Person }) {
@@ -28,6 +29,14 @@ export default function PersonCard({ person }: { person: Person }) {
       <p className="text-sm text-gray-600 mb-1">
         {person.research}
       </p>
+    
+      {/* 毕业去向 (仅 Alumni 显示) */}
+      {person.destination && (
+        <p className="text-sm text-gray-600 mb-1">
+          <span className="font-semibold">Now at: </span>
+          {person.destination}
+        </p>
+      )}
     
       {/* 邮箱 */}
       {person.email && (
