@@ -10,7 +10,7 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
   return (
     <div className="bg-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-200">
       {/* 图片区域 */}
-      <div className="w-full h-48 bg-gray-200">
+      <div className="w-full h-40 sm:h-48 bg-gray-200">
         <img
           src={getAssetPath(activity.image)}
           alt={activity.description}
@@ -20,8 +20,8 @@ export default function ActivityCard({ activity }: { activity: Activity }) {
       </div>
     
       {/* 描述文字 */}
-      <div className="p-4">
-        <p className="text-center text-gray-700 text-sm">
+      <div className="p-3 sm:p-4">
+        <p className="text-center text-gray-700 text-xs sm:text-sm leading-relaxed">
           {activity.description}
         </p>
       </div>

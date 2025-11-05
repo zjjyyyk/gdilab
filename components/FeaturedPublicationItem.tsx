@@ -40,9 +40,9 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
   }
 
   return (
-    <div className="border border-gray-300 rounded-lg bg-white hover:shadow-md transition-shadow duration-200 overflow-hidden flex" style={{ width: '100%', maxWidth: '1100px' }}>
-      {/* 左侧图片区域 */}
-      <div className="flex-shrink-0" style={{ width: '270px' }}>
+    <div className="border border-gray-300 rounded-lg bg-white hover:shadow-md transition-shadow duration-200 overflow-hidden flex flex-col sm:flex-row w-full max-w-full sm:max-w-[1100px]">
+      {/* 左侧图片区域 - 移动端全宽，桌面端固定宽度 */}
+      <div className="flex-shrink-0 w-full sm:w-64 md:w-72 h-48 sm:h-auto">
         <img
           src={getAssetPath(paper.image)}
           alt={paper.title}
@@ -52,34 +52,27 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
       </div>
       
       {/* 右侧内容区域 */}
-      <div className="flex-1" style={{ padding: '12px 12px 12px 32px' }}>
-        <p style={{ margin: '2px 0' }}>
+      <div className="flex-1 p-3 sm:p-4 md:pl-8">
+        <p className="my-1 text-sm sm:text-base">
           <span className="font-semibold text-gray-700">Authors: </span>
-          <span className="text-gray-600">{paper.authors}</span>
+          <span className="text-gray-600 break-words">{paper.authors}</span>
         </p>
-        <p style={{ margin: '2px 0' }}>
+        <p className="my-1 text-sm sm:text-base">
           <span className="font-semibold text-gray-700">Title: </span>
-          <span className="text-gray-800">{paper.title}</span>
+          <span className="text-gray-800 break-words">{paper.title}</span>
         </p>
-        <p style={{ margin: '2px 0' }}>
+        <p className="my-1 text-sm sm:text-base">
           <span className="font-semibold text-gray-700">Venue: </span>
           <span className="text-gray-600">{paper.venue}</span>
         </p>
         {paper.class && (
-          <div style={{ margin: '6px 0' }}>
+          <div className="my-2">
             <Link href={`/publications?class=${paper.class}`}>
               <span 
                 title={getClassInfo(paper.class).fullName}
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-80 transition-opacity inline-block px-3 py-1 rounded-md text-white text-xs sm:text-sm font-medium cursor-pointer"
                 style={{ 
-                  display: 'inline-block',
-                  padding: '4px 12px',
-                  borderRadius: '6px',
                   backgroundColor: getClassInfo(paper.class).color,
-                  color: 'white',
-                  fontSize: '13px',
-                  fontWeight: '500',
-                  cursor: 'pointer'
                 }}
               >
                 {paper.class}
@@ -89,11 +82,11 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
         )}
       
         {(paper.pdf || paper.code) && (
-          <div className="flex gap-4" style={{ marginTop: '4px' }}>
+          <div className="flex gap-3 sm:gap-4 mt-2">
             {paper.pdf && (
               <a 
                 href={paper.pdf} 
-                className="text-blue-600 hover:underline font-medium"
+                className="text-blue-600 hover:underline font-medium text-sm sm:text-base"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -103,7 +96,7 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
             {paper.code && (
               <a 
                 href={paper.code} 
-                className="text-blue-600 hover:underline font-medium"
+                className="text-blue-600 hover:underline font-medium text-sm sm:text-base"
                 target="_blank"
                 rel="noopener noreferrer"
               >

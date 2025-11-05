@@ -1,3 +1,5 @@
+import TitleDecorator from '@/components/TitleDecorator'
+
 export default function Awards() {
   const awards = [
     "Young Yangtze River Scholar of the Ministry of Education (2018)",
@@ -18,26 +20,24 @@ export default function Awards() {
   ]
 
   return (
-    <div className="py-12 px-4 bg-gray-50">
+    <div className="py-8 sm:py-12 px-4 bg-gray-50">
       <div className="max-w-4xl mx-auto">
         {/* 标题 */}
-        <h1 className="text-center text-gray-800" style={{ fontSize: '24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold' }}>
+        <h1 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
           Awards
         </h1>
         {/* 装饰块 */}
-        <div style={{ clear: 'both', display: 'block', height: '0.7rem', width: '80px', margin: '0px', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '0.3rem', borderBottom: '3px double #3B99E0' }}></div>
+        <TitleDecorator />
       
         {/* 奖项列表 */}
-        <div className="mt-8 bg-white rounded-lg shadow-sm p-8">
-          <ul className="space-y-3">
+        <div className="mt-6 sm:mt-8 bg-white rounded-lg shadow-sm p-4 sm:p-8">
+          <ul className="space-y-2 sm:space-y-3">
             {awards.map((award, index) => (
               <li 
                 key={index}
-                className="text-gray-700 leading-relaxed"
+                className="text-gray-700 leading-relaxed text-sm sm:text-base ml-5 sm:ml-6"
                 style={{ 
                   listStyleType: 'disc',
-                  marginLeft: '1.5rem',
-                  fontSize: '15px'
                 }}
               >
                 {award}

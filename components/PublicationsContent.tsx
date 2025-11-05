@@ -56,42 +56,46 @@ export default function PublicationsContent() {
 
   return (
     <>
-      {/* 分类按钮 */}
-      <div className="mt-8 flex justify-center items-center gap-4">
-        <span className="text-gray-600 font-medium" style={{ fontFamily: 'Montserrat, sans-serif' }}>Class Filter: &nbsp;</span>
-        <button
-          onClick={() => setSelectedClass('all')}
-          className={`px-6 py-2 rounded-lg font-medium transition-all ${
-            selectedClass === 'all'
-              ? 'bg-blue-500 text-white shadow-md'
-              : 'bg-white text-gray-700 hover:bg-blue-100'
-          }`}
-        >
-          All
-        </button>
-        {Object.keys(classInfo).map((classKey) => (
+      {/* 分类按钮 - 响应式布局 */}
+      <div className="mt-6 sm:mt-8 flex flex-wrap justify-center items-center gap-2 sm:gap-4 px-4">
+        <span className="text-gray-600 font-medium text-sm sm:text-base w-full sm:w-auto text-center sm:text-left" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+          Class Filter:
+        </span>
+        <div className="flex flex-wrap justify-center gap-2">
           <button
-            key={classKey}
-            onClick={() => setSelectedClass(classKey)}
-            title={classInfo[classKey].fullName}
-            className={`px-6 py-2 rounded-lg font-medium transition-all ${
-              selectedClass === classKey
+            onClick={() => setSelectedClass('all')}
+            className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-lg font-medium transition-all text-sm sm:text-base ${
+              selectedClass === 'all'
                 ? 'bg-blue-500 text-white shadow-md'
                 : 'bg-white text-gray-700 hover:bg-blue-100'
             }`}
-            style={{ cursor: 'pointer' }}
           >
-            {classInfo[classKey].label}
+            All
           </button>
-        ))}
+          {Object.keys(classInfo).map((classKey) => (
+            <button
+              key={classKey}
+              onClick={() => setSelectedClass(classKey)}
+              title={classInfo[classKey].fullName}
+              className={`px-4 sm:px-6 py-1.5 sm:py-2 rounded-lg font-medium transition-all text-sm sm:text-base ${
+                selectedClass === classKey
+                  ? 'bg-blue-500 text-white shadow-md'
+                  : 'bg-white text-gray-700 hover:bg-blue-100'
+              }`}
+              style={{ cursor: 'pointer' }}
+            >
+              {classInfo[classKey].label}
+            </button>
+          ))}
+        </div>
       </div>
     
       {/* 按年份展示 */}
-      <div className="mt-8">
+      <div className="mt-6 sm:mt-8">
         {years.map((year) => (
           <div key={year} className="mb-6">
             {/* 年份标题 */}
-            <h2 className="text-xl font-bold mb-3 text-gray-800">
+            <h2 className="text-lg sm:text-xl font-bold mb-3 text-gray-800">
               {year}
             </h2>
           

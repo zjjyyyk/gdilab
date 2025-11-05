@@ -10,9 +10,9 @@ interface Person {
 
 export default function PersonCard({ person }: { person: Person }) {
   return (
-    <div className="flex flex-col items-center text-center p-4" style={{ width: '370px' }}>
-      {/* 圆形头像 */}
-      <div className="rounded-full overflow-hidden mb-3 bg-gray-200" style={{ width: '210px', height: '210px' }}>
+    <div className="flex flex-col items-center text-center p-3 sm:p-4 w-full max-w-[370px]">
+      {/* 圆形头像 - 响应式尺寸 */}
+      <div className="rounded-full overflow-hidden mb-3 bg-gray-200 w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52">
         <img
           src={getAssetPath(person.photo)}
           alt={person.name}
@@ -22,18 +22,18 @@ export default function PersonCard({ person }: { person: Person }) {
       </div>
     
       {/* 姓名 */}
-      <h3 className="text-base font-semibold text-gray-800 mb-1">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-1">
         {person.name}
       </h3>
     
       {/* 研究方向 */}
-      <p className="text-sm text-gray-600 mb-1">
+      <p className="text-xs sm:text-sm text-gray-600 mb-1">
         {person.research}
       </p>
     
       {/* 毕业去向 (仅 Alumni 显示) */}
       {person.destination && (
-        <p className="text-sm text-gray-600 mb-1">
+        <p className="text-xs sm:text-sm text-gray-600 mb-1">
           <span className="font-semibold">Now at: </span>
           {person.destination}
         </p>
@@ -43,7 +43,7 @@ export default function PersonCard({ person }: { person: Person }) {
       {person.email && (
         <a 
           href={`mailto:${person.email}`}
-          className="text-sm text-blue-600 hover:underline"
+          className="text-xs sm:text-sm text-blue-600 hover:underline break-all"
         >
           {person.email}
         </a>

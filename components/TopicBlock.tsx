@@ -22,24 +22,16 @@ export default function TopicBlock({ topic }: { topic: Topic }) {
   }
 
   return (
-    <div className="py-8">
+    <div className="py-6 sm:py-8">
       {/* 主题标题 - 带双下划线装饰 */}
-      <h2 className="text-2xl font-bold mb-6 relative inline-block">
-        {topic.name}
+      <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 relative inline-block">
+        <span className="break-words">{topic.name}</span>
         {topic.abbr && (
-          <Link href={`/publications?class=${topic.abbr}`} className="ml-3 inline-block align-middle">
+          <Link href={`/publications?class=${topic.abbr}`} className="ml-2 sm:ml-3 inline-block align-middle">
             <span 
-              className="hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity inline-block px-2 sm:px-3 py-1 rounded-md text-white text-xs sm:text-sm font-medium cursor-pointer"
               style={{ 
-                display: 'inline-block',
-                padding: '4px 12px',
-                borderRadius: '6px',
                 backgroundColor: getClassColor(topic.abbr),
-                color: 'white',
-                fontSize: '14px',
-                fontWeight: '500',
-                cursor: 'pointer',
-                verticalAlign: 'middle'
               }}
             >
               {topic.abbr}
@@ -51,8 +43,8 @@ export default function TopicBlock({ topic }: { topic: Topic }) {
       </h2>
     
       {/* 描述文本 */}
-      <div className="max-w-[70%] mx-auto">
-        <p className="text-gray-700 leading-relaxed text-justify">
+      <div className="max-w-full sm:max-w-[85%] md:max-w-[70%] mx-auto px-2 sm:px-0">
+        <p className="text-gray-700 leading-relaxed text-justify text-sm sm:text-base">
           {topic.description}
         </p>
       </div>

@@ -1,5 +1,6 @@
 import Carousel from '@/components/Carousel'
 import FeaturedPublicationItem from '@/components/FeaturedPublicationItem'
+import TitleDecorator from '@/components/TitleDecorator'
 import featuredPublications from '../public/data/featured-publications.json'
 
 export default function Home() {
@@ -16,15 +17,15 @@ export default function Home() {
       <Carousel images={carouselImages} />
     
       {/* Selected Publications */}
-      <section className="py-12 px-4 bg-white">
+      <section className="py-8 sm:py-12 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-center text-gray-800" style={{ fontSize: '24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold' }}>
+          <h2 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
             Selected Publications
           </h2>
           {/* 装饰块 */}
-          <div style={{ clear: 'both', display: 'block', height: '0.7rem', width: '80px', margin: '0px', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '0.3rem', borderBottom: '3px double #3B99E0' }}></div>
+          <TitleDecorator />
         
-          <div className="space-y-2 mt-8" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div className="space-y-3 sm:space-y-2 mt-6 sm:mt-8 flex flex-col items-center">
             {featuredPublications.map((paper: any, index: number) => (
               <FeaturedPublicationItem key={index} paper={paper} />
             ))}

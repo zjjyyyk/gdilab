@@ -1,6 +1,6 @@
 import PersonCard from '@/components/PersonCard'
+import TitleDecorator from '@/components/TitleDecorator'
 import peopleData from '../../public/data/people.json'
-import { siteConfig } from '@/config/site.config'
 
 export default function People() {
   const sections = [
@@ -13,28 +13,24 @@ export default function People() {
   ]
 
   return (
-    <div className="py-12 px-4 bg-gray-50">
+    <div className="py-8 sm:py-12 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {sections.map((section) => (
           section.data && section.data.length > 0 && (
-            <div key={section.key} className="mb-12">
+            <div key={section.key} className="mb-10 sm:mb-12">
               {/* 标题 */}
-              <h2 className="text-center text-gray-800" style={{ fontSize: '24px', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold' }}>
+              <h2 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
                 {section.title}
               </h2>
               {/* 装饰块 */}
-              <div style={{ clear: 'both', display: 'block', height: '0.7rem', width: '80px', margin: '0px', marginLeft: 'auto', marginRight: 'auto', paddingBottom: '0.3rem', borderBottom: '3px double #3B99E0' }}></div>
+              <TitleDecorator />
             
-              {/* 人员网格 */}
+              {/* 人员网格 - 响应式布局 */}
               <div 
-                className="grid gap-6"
+                className="grid gap-4 sm:gap-6 justify-items-center mt-6 sm:mt-10 pt-2 sm:pt-4"
                 style={{
-                  gridTemplateColumns: `repeat(3, 370px)`,
-                  maxWidth: `${siteConfig.peopleGridCols * 400}px`,
-                  margin: '0 auto',
-                  justifyContent: 'start',
-                  marginTop: '10px',
-                  paddingTop: '10px'
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 370px))',
+                  justifyContent: 'center',
                 }}
               >
                 {section.data.map((person: any, index: number) => (
