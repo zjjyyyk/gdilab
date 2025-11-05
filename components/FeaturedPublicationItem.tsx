@@ -1,4 +1,7 @@
+'use client'
+
 import { getAssetPath } from '@/lib/utils'
+import Link from 'next/link'
 
 interface FeaturedPublication {
   id: number
@@ -13,14 +16,27 @@ interface FeaturedPublication {
 }
 
 export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPublication }) {
-  // 根据 class 返回对应的颜色
-  const getClassColor = (className: string) => {
-    const colors: { [key: string]: string } = {
-      'class1': '#10B981', // 绿色
-      'class2': '#3B82F6', // 蓝色
-      'class3': '#F59E0B', // 橙色
+  // 根据 class 返回对应的颜色和全称
+  const getClassInfo = (className: string) => {
+    const classMap: { [key: string]: { color: string; fullName: string } } = {
+      'GLLLM': { 
+        color: '#10B981', 
+        fullName: 'Graph Learning and Large Language Models' 
+      },
+      'CGA': { 
+        color: '#3B82F6', 
+        fullName: 'Combinatorial Graph Mining Algorithms' 
+      },
+      'AGA': { 
+        color: '#F59E0B', 
+        fullName: 'Algebraic Graph Mining Algorithms' 
+      },
+      'TGA': { 
+        color: '#8B5CF6', 
+        fullName: 'Topological Graph Mining Algorithms' 
+      },
     }
-    return colors[className] || '#6B7280' // 默认灰色
+    return classMap[className] || { color: '#6B7280', fullName: className }
   }
 
   return (
@@ -51,19 +67,24 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
         </p>
         {paper.class && (
           <div style={{ margin: '6px 0' }}>
-            <span 
-              style={{ 
-                display: 'inline-block',
-                padding: '4px 12px',
-                borderRadius: '6px',
-                backgroundColor: getClassColor(paper.class),
-                color: 'white',
-                fontSize: '13px',
-                fontWeight: '500'
-              }}
-            >
-              {paper.class}
-            </span>
+            <Link href={`/publications?class=${paper.class}`}>
+              <span 
+                title={getClassInfo(paper.class).fullName}
+                className="hover:opacity-80 transition-opacity"
+                style={{ 
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '6px',
+                  backgroundColor: getClassInfo(paper.class).color,
+                  color: 'white',
+                  fontSize: '13px',
+                  fontWeight: '500',
+                  cursor: 'pointer'
+                }}
+              >
+                {paper.class}
+              </span>
+            </Link>
           </div>
         )}
       

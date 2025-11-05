@@ -1,22 +1,22 @@
 [
   {
-    "name": "计算机视觉",
-    "description": "我们专注于视觉信息的智能理解与处理,研究内容包括目标检测与跟踪、图像分割、三维重建、视觉SLAM等。通过深度学习和传统方法的结合,我们致力于开发高效、鲁棒的视觉算法,应用于自动驾驶、机器人导航、医疗影像分析等领域。我们的目标是让机器像人类一样理解视觉世界,实现真正的视觉智能。"
+    "name": "Graph Learning and Large Language Models",
+    "abbr": "GLLLM",
+    "description": "Focusing on Graph Neural Networks, Graph Federated Learning, Graph Unlearning, Directed Graph Learning, Graph Foundation Models, Graph Data Agents, Graph4LLM, LLM4Graph, Multimodal Attribute Graphs, AI4Science, etc."
   },
   {
-    "name": "自然语言处理",
-    "description": "本方向研究机器对人类语言的理解与生成,涵盖文本分类、命名实体识别、机器翻译、对话系统、文本生成等任务。我们探索大规模预训练语言模型的应用,研究多语言、跨领域的语言理解技术。通过结合知识图谱和符号推理,我们致力于构建更加智能、可解释的自然语言处理系统,服务于智能客服、内容审核、教育辅助等应用场景。"
+    "name": "Combinatorial Graph Mining Algorithms",
+    "abbr": "CGA",
+    "description": "Focusing on Cohesive Subgraph Mining, Community Detection and Search, Clique Enumeration and Counting, Hereditary Cohesive Subgraph Enumeration and Counting, Densest Subgraph Mining, Graph Density Decomposition, Shortest Path Queries, Group Steiner Tree Queries, Spanning Tree Maintenance, Connectivity Maintenance, Graph Centrality Computation, Graph-based Index for Vector Retrieval etc."
   },
   {
-    "name": "多模态学习",
-    "description": "多模态学习致力于融合视觉、文本、音频等不同模态的信息,实现更全面的智能理解。我们研究跨模态检索、视觉问答、图像描述生成、视频理解等任务。通过设计新颖的注意力机制和对齐策略,我们探索不同模态间的语义关联,开发能够同时处理多种信息源的智能系统。这一方向的研究对于构建类人智能系统具有重要意义。"
+    "name": "Algebraic Graph Mining Algorithms",
+    "abbr": "AGA",
+    "description": "Focusing on PageRank, Resistance Distance, Biharmonic Distance, Kemeny Constant, Laplacian Solver, Expander Decomposition, Spanning Tree Sampling, Random Walk Sampling, Spectral Graph Theory and Applications, etc."
   },
   {
-    "name": "机器学习理论",
-    "description": "我们从理论角度研究机器学习的基本原理,包括学习算法的泛化能力分析、优化理论、统计学习理论等。研究内容涵盖深度神经网络的表达能力、对抗鲁棒性的理论保证、元学习的理论基础等。通过严格的数学分析和理论证明,我们致力于揭示机器学习成功的本质原因,为算法设计提供理论指导,推动人工智能向更加可靠、可解释的方向发展。"
-  },
-  {
-    "name": "强化学习与智能决策",
-    "description": "本方向研究智能体在与环境交互中学习最优策略的方法,应用于机器人控制、游戏AI、资源调度、推荐系统等场景。我们探索模型自由和基于模型的强化学习算法,研究多智能体协作与博弈,发展离线强化学习和安全强化学习技术。通过结合深度学习和传统规划方法,我们致力于开发能够在复杂、动态环境中做出智能决策的自主系统。"
+    "name": "Topological Graph Mining Algorithms",
+    "abbr": "TGA",
+    "description": "Focusing on Persistent Homology, Filtration, Graph Collapse, Topology-preserving Graph Coarsening, the deep integration of Topological Data Analysis methods and Graph Mining algorithms, and their applications in graph data mining."
   }
 ]

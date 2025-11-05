@@ -1,25 +1,20 @@
 export default function Awards() {
   const awards = [
-    "Best Paper Award at IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2024",
-    "Outstanding Research Award from National Science Foundation 2024",
-    "Excellence in Innovation Award at International Conference on Machine Learning (ICML) 2023",
-    "Young Researcher Award from ACM SIGKDD 2023",
-    "Best Student Paper Award at NeurIPS 2023",
-    "Distinguished Paper Award at AAAI Conference on Artificial Intelligence 2023",
-    "IEEE Outstanding Technical Achievement Award 2022",
-    "National Technology Innovation Award (Second Prize) 2022",
-    "Best Application Paper Award at ICCV 2022",
-    "Outstanding Doctoral Dissertation Award from Computer Science Department 2022",
-    "Rising Star Award in Artificial Intelligence 2021",
-    "Best Demo Award at SIGGRAPH 2021",
-    "Excellence in Research Award from University 2021",
-    "Top Cited Paper Award from Journal of Machine Learning Research 2021",
-    "Best Paper Honorable Mention at CHI 2020",
-    "Innovation Excellence Award from Ministry of Science and Technology 2020",
-    "Outstanding Graduate Student Research Award 2020",
-    "Best Poster Award at ECCV 2019",
-    "Distinguished Achievement Award in Data Science 2019",
-    "Young Faculty Award from International Neural Network Society 2019"
+    "Young Yangtze River Scholar of the Ministry of Education (2018)",
+    "2024 First Prize for Natural Science from the Chinese Institute of Electronics",
+    "2023 Second Prize for Natural Science from the China Computer Federation",
+    "2024 Gold Medal at the Geneva International Exhibition of Inventions",
+    "2024 Gold Medal at the Nuremberg International Invention Fair",
+    "2023 Second Prize for National Teaching Achievement Award",
+    "2022 First Prize for Beijing Municipal Teaching Achievement Award",
+    "One of the 8 Excellent Papers at ICDE 2019",
+    "One of the 8 Excellent Papers at ICDE 2018",
+    "Supervised doctoral student awarded the 2024 \"CCF Doctoral Dissertation Incentive Program\"",
+    "Supervised postdoctoral researcher awarded the 2024 \"Postdoctoral Innovative Talent Support Program\"",
+    "2024 OceanBase Database Competition Champion",
+    "2025 SIGMOD Programming Contest Runner-up",
+    "Supervised student achieved 1st place in the 2022 OGB Challenge for Graph Learning",
+    "Supervised student achieved 1st place in the 2021 Galaxbase Graph Data Mining Competition"
   ]
 
   return (

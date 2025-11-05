@@ -7,7 +7,7 @@
     "image": "/images/publications/pub1.jpg",
     "pdf": "/papers/cvpr2025.pdf",
     "code": "https://github.com/lab/project1",
-    "class": "class1"
+    "class": "GLLLM"
   },
   {
     "authors": "Li Ming, Chen Jing",
@@ -17,7 +17,7 @@
     "image": "/images/publications/pub2.jpg",
     "pdf": "/papers/iccv2025.pdf",
     "code": null,
-    "class": "class2"
+    "class": "CGA"
   },
   {
     "authors": "Wang Fang, Zhang Wei, Liu Yang",
@@ -27,7 +27,7 @@
     "image": "/images/publications/pub3.jpg",
     "pdf": null,
     "code": "https://github.com/lab/project3",
-    "class": "class1"
+    "class": "GLLLM"
   },
   {
     "authors": "Chen Jing, Li Ming",
@@ -37,7 +37,7 @@
     "image": "/images/publications/pub4.jpg",
     "pdf": "/papers/icml2024.pdf",
     "code": "https://github.com/lab/project4",
-    "class": "class3"
+    "class": "TGA"
   },
   {
     "authors": "Liu Yang, Wang Fang",
@@ -47,6 +47,6 @@
     "image": "/images/publications/pub5.jpg",
     "pdf": "/papers/aaai2024.pdf",
     "code": null,
-    "class": "class2"
+    "class": "CGA"
   }
 ]

@@ -1,11 +1,41 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useSearchParams } from 'next/navigation'
 import PublicationItem from '@/components/PublicationItem'
 import publications from '../../public/data/publications.json'
 
 export default function Publications() {
+  const searchParams = useSearchParams()
+  const classParam = searchParams.get('class')
   const [selectedClass, setSelectedClass] = useState<string>('all')
+  
+  // 从 URL 参数初始化选中的分类
+  useEffect(() => {
+    if (classParam && ['GLLLM', 'CGA', 'AGA', 'TGA'].includes(classParam)) {
+      setSelectedClass(classParam)
+    }
+  }, [classParam])
+  
+  // 分类映射
+  const classInfo: { [key: string]: { label: string; fullName: string } } = {
+    'GLLLM': { 
+      label: 'GLLLM', 
+      fullName: 'Graph Learning and Large Language Models' 
+    },
+    'CGA': { 
+      label: 'CGA', 
+      fullName: 'Combinatorial Graph Mining Algorithms' 
+    },
+    'AGA': { 
+      label: 'AGA', 
+      fullName: 'Algebraic Graph Mining Algorithms' 
+    },
+    'TGA': { 
+      label: 'TGA', 
+      fullName: 'Topological Graph Mining Algorithms' 
+    },
+  }
   
   // 根据选中的分类过滤论文
   const filteredPublications = selectedClass === 'all' 
@@ -47,36 +77,21 @@ export default function Publications() {
           >
             All
           </button>
-          <button
-            onClick={() => setSelectedClass('class1')}
-            className={`px-6 py-2 rounded-lg font-medium transition-all ${
-              selectedClass === 'class1'
-                ? 'bg-blue-500 text-white shadow-md'
-                : 'bg-white text-gray-700 hover:bg-blue-100'
-            }`}
-          >
-            Class1
-          </button>
-          <button
-            onClick={() => setSelectedClass('class2')}
-            className={`px-6 py-2 rounded-lg font-medium transition-all ${
-              selectedClass === 'class2'
-                ? 'bg-blue-500 text-white shadow-md'
-                : 'bg-white text-gray-700 hover:bg-blue-100'
-            }`}
-          >
-            Class2
-          </button>
-          <button
-            onClick={() => setSelectedClass('class3')}
-            className={`px-6 py-2 rounded-lg font-medium transition-all ${
-              selectedClass === 'class3'
-                ? 'bg-blue-500 text-white shadow-md'
-                : 'bg-white text-gray-700 hover:bg-blue-100'
-            }`}
-          >
-            Class3
-          </button>
+          {Object.keys(classInfo).map((classKey) => (
+            <button
+              key={classKey}
+              onClick={() => setSelectedClass(classKey)}
+              title={classInfo[classKey].fullName}
+              className={`px-6 py-2 rounded-lg font-medium transition-all ${
+                selectedClass === classKey
+                  ? 'bg-blue-500 text-white shadow-md'
+                  : 'bg-white text-gray-700 hover:bg-blue-100'
+              }`}
+              style={{ cursor: 'pointer' }}
+            >
+              {classInfo[classKey].label}
+            </button>
+          ))}
         </div>
       
         {/* 按年份展示 */}

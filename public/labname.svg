@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1581 433" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: 'ZihunYahei';
+        src: url('/fonts/字魂经典雅黑(商用需授权).ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </defs>
+  <g>
+    <text fill="#262626" font-family="ZihunYahei, sans-serif" font-weight="400" font-size="165" x="99.57" y="216">图数据智能实验室</text>
+    <text fill="#595959" font-family="ZihunYahei, sans-serif" font-weight="400" font-size="83" x="99.57" y="367">Graph Data Intelligence Lab</text>
+  </g>
+</svg>

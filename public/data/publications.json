@@ -6,7 +6,7 @@
     "venue": "CVPR 2025",
     "pdf": "/papers/cvpr2025.pdf",
     "code": "https://github.com/lab/project1",
-    "class": "class1"
+    "class": "GLLLM"
   },
   {
     "year": 2025,
@@ -15,7 +15,7 @@
     "venue": "ICCV 2025",
     "pdf": "/papers/iccv2025.pdf",
     "code": null,
-    "class": "class2"
+    "class": "CGA"
   },
   {
     "year": 2024,
@@ -24,7 +24,7 @@
     "venue": "NeurIPS 2024",
     "pdf": null,
     "code": "https://github.com/lab/project3",
-    "class": "class1"
+    "class": "GLLLM"
   },
   {
     "year": 2024,
@@ -33,7 +33,7 @@
     "venue": "ICML 2024",
     "pdf": "/papers/icml2024.pdf",
     "code": "https://github.com/lab/project4",
-    "class": "class3"
+    "class": "TGA"
   },
   {
     "year": 2024,
@@ -42,7 +42,7 @@
     "venue": "AAAI 2024",
     "pdf": "/papers/aaai2024.pdf",
     "code": null,
-    "class": "class2"
+    "class": "CGA"
   },
   {
     "year": 2024,
@@ -51,7 +51,7 @@
     "venue": "IJCAI 2024",
     "pdf": "/papers/ijcai2024.pdf",
     "code": "https://github.com/lab/project6",
-    "class": "class3"
+    "class": "AGA"
   },
   {
     "year": 2023,
@@ -60,7 +60,7 @@
     "venue": "CVPR 2023",
     "pdf": "/papers/cvpr2023.pdf",
     "code": null,
-    "class": "class1"
+    "class": "GLLLM"
   },
   {
     "year": 2023,
@@ -69,6 +69,6 @@
     "venue": "KDD 2023",
     "pdf": null,
     "code": "https://github.com/lab/project8",
-    "class": "class2"
+    "class": "CGA"
   }
 ]

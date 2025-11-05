@@ -20,15 +20,18 @@ export default function Navbar() {
           {/* 左侧：Logo和实验室名称 */}
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <img 
-              src={getAssetPath("/images/logo.svg")}
+              src={getAssetPath("/images/logo.png")}
               alt="Lab Logo" 
               width={40} 
               height={40}
               className="object-contain"
             />
-            <span className="text-xl font-semibold text-gray-800">
-              {siteConfig.labName}
-            </span>
+            <img 
+              src={getAssetPath("/labname.png")}
+              alt={siteConfig.labName}
+              className="object-contain"
+              style={{ height: '40px', width: 'auto' }}
+            />
           </Link>
         
           {/* 右侧：导航链接 */}
