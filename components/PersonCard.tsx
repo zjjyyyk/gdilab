@@ -43,7 +43,7 @@ export default function PersonCard({ person }: { person: Person }) {
       {person.email && (
         <a 
           href={`mailto:${person.email}`}
-          className="text-sm text-primary hover:underline"
+          className="text-sm text-blue-600 hover:underline"
         >
           {person.email}
         </a>

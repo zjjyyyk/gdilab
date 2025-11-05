@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import PublicationItem from '@/components/PublicationItem'
-import publications from '../public/data/publications.json'
+import publications from '@/public/data/publications.json'
 
 export default function PublicationsContent() {
   const searchParams = useSearchParams()
