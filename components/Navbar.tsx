@@ -9,6 +9,8 @@ export default function Navbar() {
     { name: 'Topics', path: '/topics' },
     { name: 'Publications', path: '/publications' },
     { name: 'Activities', path: '/activities' },
+    { name: 'Awards', path: '/awards' },
+    { name: 'Contact Us', path: '/contact' },
   ]
 
   return (
