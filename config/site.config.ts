@@ -23,7 +23,6 @@ export const siteConfig = {
     wechat: 'https://mp.weixin.qq.com/lab'
   },
 
-  // 备案信息
-  icp: '京ICP备12345678号-1',
-  copyright: '© 2026 Graph Data Intelligence Lab. All Rights Reserved.'
+  // 版权信息
+  copyright: '© 2025 Graph Data Intelligence Lab. All Rights Reserved.'
 }
