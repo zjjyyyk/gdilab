@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import visitedScholars from '@/public/data/visited-scholars.json'
+import 'leaflet/dist/leaflet.css'
 
 interface VisitedScholar {
   id: number
@@ -100,7 +101,11 @@ function MapComponent() {
       center={center}
       zoom={2}
       style={{ height: '100%', width: '100%' }}
-      scrollWheelZoom={true}
+      scrollWheelZoom={false}
+      dragging={true}
+      touchZoom={true}
+      doubleClickZoom={true}
+      zoomControl={true}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -138,7 +143,7 @@ export default function VisitedScholarsMap() {
   return (
     <div className="w-full max-w-4xl mx-auto">
       {/* 地图容器 */}
-      <div className="relative bg-white rounded-lg overflow-hidden shadow-lg" style={{ height: '400px' }}>
+      <div className="relative bg-white rounded-lg overflow-hidden shadow-lg touch-none" style={{ height: '400px', minHeight: '300px' }}>
         <MapComponent />
       </div>
 
