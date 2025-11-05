@@ -93,12 +93,18 @@ function MapComponent() {
   const [selectedScholar, setSelectedScholar] = useState<VisitedScholar | null>(null)
   const [isClient, setIsClient] = useState(false)
   const [mapSource, setMapSource] = useState(0)
+  const [shouldLoadMap, setShouldLoadMap] = useState(false)
 
   useEffect(() => {
     setIsClient(true)
+    // 延迟加载地图，避免阻塞页面初始渲染
+    const timer = setTimeout(() => {
+      setShouldLoadMap(true)
+    }, 100)
+    return () => clearTimeout(timer)
   }, [])
 
-  if (!isClient) {
+  if (!isClient || !shouldLoadMap) {
     return (
       <div className="flex items-center justify-center h-full bg-gray-100 rounded-lg">
         <div className="text-gray-500">Loading map...</div>
@@ -179,12 +185,42 @@ function MapComponent() {
 
 export default function VisitedScholarsMap() {
   const [selectedScholar, setSelectedScholar] = useState<VisitedScholar | null>(null)
+  const [isVisible, setIsVisible] = useState(false)
+  const mapRef = useEffect as any
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setIsVisible(true)
+        }
+      },
+      { threshold: 0.1 }
+    )
+
+    const mapElement = document.getElementById('visited-scholars-map')
+    if (mapElement) {
+      observer.observe(mapElement)
+    }
+
+    return () => {
+      if (mapElement) {
+        observer.unobserve(mapElement)
+      }
+    }
+  }, [])
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div id="visited-scholars-map" className="w-full max-w-4xl mx-auto">
       {/* 地图容器 */}
       <div className="relative bg-white rounded-lg overflow-hidden shadow-lg touch-none" style={{ height: '400px', minHeight: '300px' }}>
-        <MapComponent />
+        {isVisible ? (
+          <MapComponent />
+        ) : (
+          <div className="flex items-center justify-center h-full bg-gray-100 rounded-lg">
+            <div className="text-gray-500">Scroll to load map...</div>
+          </div>
+        )}
       </div>
 
       {/* 统计信息 */}

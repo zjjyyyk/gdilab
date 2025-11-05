@@ -7,7 +7,7 @@
   {
     "name": "Combinatorial Graph Mining Algorithms",
     "abbr": "CGA",
-    "description": "Focusing on Cohesive Subgraph Mining, Community Detection and Search, Clique Enumeration and Counting, Hereditary Cohesive Subgraph Enumeration and Counting, Densest Subgraph Mining, Graph Density Decomposition, Shortest Path Queries, Group Steiner Tree Queries, Spanning Tree Maintenance, Connectivity Maintenance, Graph Centrality Computation, Graph-based Index for Vector Retrieval etc."
+    "description": "Focusing on Cohesive Subgraph Mining, Community Detection and Search, Clique Enumeration and Counting, Hereditary Cohesive Subgraph Enumeration and Counting, Densest Subgraph Mining, Graph Density Decomposition, Shortest Path Queries, Group Steiner Tree Queries, Spanning Tree Maintenance, Connectivity Maintenance, Graph Centrality Computation, Graph-based Index for Vector Retrieval, etc."
   },
   {
     "name": "Algebraic Graph Mining Algorithms",
