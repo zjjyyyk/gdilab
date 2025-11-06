@@ -59,7 +59,7 @@ export default function FeaturedPublicationItem({ paper }: { paper: FeaturedPubl
         </p>
         <p className="my-1 text-sm sm:text-base">
           <span className="font-semibold text-gray-700">Title: </span>
-          <span className="text-gray-800 break-words">{paper.title}</span>
+          <span className="text-gray-800 break-words font-bold">{paper.title}</span>
         </p>
         <p className="my-1 text-sm sm:text-base">
           <span className="font-semibold text-gray-700">Venue: </span>
