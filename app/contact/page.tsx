@@ -56,14 +56,6 @@ export default function ContactUs() {
                 >
                   📖 Zhihu (知乎)
                 </a>
-                <a 
-                  href={siteConfig.social.wechat}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 hover:underline"
-                >
-                  💬 WeChat Official Account
-                </a>
               </div>
             </section>
 

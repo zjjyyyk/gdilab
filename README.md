@@ -98,8 +98,7 @@ export const siteConfig = {
   },
   social: {                         // 社交媒体链接
     xiaohongshu: 'https://...',
-    zhihu: 'https://...',
-    wechat: 'https://...'
+    zhihu: 'https://...'
   },
   icp: '京ICP备12345678号-1',      // 备案号
   copyright: '© 2024 实验室'        // 版权信息

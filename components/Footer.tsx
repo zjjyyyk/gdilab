@@ -31,15 +31,6 @@ export default function Footer() {
               <img src={getAssetPath("/zhihu.svg")} alt="知乎" className="w-5 h-5 sm:w-6 sm:h-6 mb-1" />
               <span className="text-xs">知乎</span>
             </a>
-            <a 
-              href={siteConfig.social.wechat}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col items-center hover:text-primary transition-colors"
-            >
-              <img src={getAssetPath("/wechat.svg")} alt="微信公众号" className="w-5 h-5 sm:w-6 sm:h-6 mb-1" />
-              <span className="text-xs">微信公众号</span>
-            </a>
           </div>
         </div>
       </div>

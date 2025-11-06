@@ -18,9 +18,8 @@ export const siteConfig = {
 
   // 社交媒体
   social: {
-    xiaohongshu: 'https://xiaohongshu.com/lab',
-    zhihu: 'https://zhihu.com/lab',
-    wechat: 'https://mp.weixin.qq.com/lab'
+    xiaohongshu: 'https://www.xiaohongshu.com/user/profile/690866e30000000031016298',
+    zhihu: 'https://www.zhihu.com/people/lironghuabit'
   },
 
   // 版权信息
