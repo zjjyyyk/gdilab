@@ -1,11 +1,27 @@
+import dynamic from 'next/dynamic'
 import Carousel from '@/components/Carousel'
 import FeaturedPublicationItem from '@/components/FeaturedPublicationItem'
 import TitleDecorator from '@/components/TitleDecorator'
-import VisitedScholarsMap from '@/components/VisitedScholarsMap'
 import featuredPublications from '../public/data/featured-publications.json'
 
+// 动态导入地图组件,只在需要时加载
+const VisitedScholarsMap = dynamic(
+  () => import('@/components/VisitedScholarsMap'),
+  { 
+    ssr: false,
+    loading: () => (
+      <div className="w-full h-[400px] flex items-center justify-center bg-gray-50 rounded-lg">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mb-2"></div>
+          <p className="text-gray-500">Loading interactive map...</p>
+        </div>
+      </div>
+    )
+  }
+)
+
 // 控制学者访问地图模块的显示
-const ENABLE_VISITED_SCHOLARS_MAP = false
+const ENABLE_VISITED_SCHOLARS_MAP = true
 
 export default function Home() {
   // 轮播图片

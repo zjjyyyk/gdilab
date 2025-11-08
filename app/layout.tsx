@@ -30,6 +30,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        {/* 预连接地图瓦片服务器,加速地图加载 */}
+        <link rel="preconnect" href="https://tile.openstreetmap.org" />
+        <link rel="preconnect" href="https://basemaps.cartocdn.com" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+      </head>
       <body className={`min-h-screen flex flex-col ${montserrat.className}`}>
         <Suspense fallback={null}>
           <TopLoadingBar />

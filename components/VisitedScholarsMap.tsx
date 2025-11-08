@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import visitedScholars from '@/public/data/visited-scholars.json'
-import 'leaflet/dist/leaflet.css'
 
 interface VisitedScholar {
   id: number
@@ -60,6 +59,16 @@ const Popup = dynamic(() => import('react-leaflet').then(mod => mod.Popup), {
 // 动态导入Leaflet以避免SSR问题
 let L: any = null
 if (typeof window !== 'undefined') {
+  // 动态加载 Leaflet CSS
+  const link = document.createElement('link')
+  link.rel = 'stylesheet'
+  link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'
+  link.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY='
+  link.crossOrigin = ''
+  if (!document.querySelector('link[href*="leaflet.css"]')) {
+    document.head.appendChild(link)
+  }
+
   L = require('leaflet')
 
   // 修复Leaflet默认图标问题
@@ -97,11 +106,19 @@ function MapComponent() {
 
   useEffect(() => {
     setIsClient(true)
-    // 延迟加载地图，避免阻塞页面初始渲染
-    const timer = setTimeout(() => {
+    // 使用 requestIdleCallback 在浏览器空闲时加载地图
+    const loadMap = () => {
       setShouldLoadMap(true)
-    }, 100)
-    return () => clearTimeout(timer)
+    }
+    
+    if ('requestIdleCallback' in window) {
+      const id = (window as any).requestIdleCallback(loadMap, { timeout: 500 })
+      return () => (window as any).cancelIdleCallback(id)
+    } else {
+      // 后备方案: 延迟加载
+      const timer = setTimeout(loadMap, 300)
+      return () => clearTimeout(timer)
+    }
   }, [])
 
   if (!isClient || !shouldLoadMap) {
@@ -132,10 +149,16 @@ function MapComponent() {
       touchZoom={true}
       doubleClickZoom={true}
       zoomControl={true}
+      preferCanvas={true}
     >
       <TileLayer
         attribution={MAP_SOURCES[mapSource].attribution}
         url={MAP_SOURCES[mapSource].url}
+        maxZoom={18}
+        minZoom={2}
+        keepBuffer={2}
+        updateWhenIdle={true}
+        updateWhenZooming={false}
       />
 
       {/* 地图源切换按钮 */}
@@ -186,16 +209,22 @@ function MapComponent() {
 export default function VisitedScholarsMap() {
   const [selectedScholar, setSelectedScholar] = useState<VisitedScholar | null>(null)
   const [isVisible, setIsVisible] = useState(false)
-  const mapRef = useEffect as any
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting) {
-          setIsVisible(true)
-        }
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setIsVisible(true)
+            // 一旦可见就断开观察,避免重复触发
+            observer.disconnect()
+          }
+        })
       },
-      { threshold: 0.1 }
+      { 
+        threshold: 0.1,
+        rootMargin: '100px' // 提前100px开始加载
+      }
     )
 
     const mapElement = document.getElementById('visited-scholars-map')
@@ -204,9 +233,7 @@ export default function VisitedScholarsMap() {
     }
 
     return () => {
-      if (mapElement) {
-        observer.unobserve(mapElement)
-      }
+      observer.disconnect()
     }
   }, [])
 
