@@ -4,6 +4,9 @@ import TitleDecorator from '@/components/TitleDecorator'
 import VisitedScholarsMap from '@/components/VisitedScholarsMap'
 import featuredPublications from '../public/data/featured-publications.json'
 
+// 控制学者访问地图模块的显示
+const ENABLE_VISITED_SCHOLARS_MAP = false
+
 export default function Home() {
   // 轮播图片
   const carouselImages = [
@@ -34,20 +37,28 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Visited Scholars Map */}
-      <section className="py-8 sm:py-12 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
-            Visited Scholars
-          </h2>
-          {/* 装饰块 */}
-          <TitleDecorator />
-        
-          <div className="mt-6 sm:mt-8">
-            <VisitedScholarsMap />
+      {/* Visited Scholars Map Section */}
+      {ENABLE_VISITED_SCHOLARS_MAP && (
+        <section className="relative z-0 bg-gradient-to-b from-gray-50 to-white py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* 标题和装饰 */}
+            <div className="text-center mb-12">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+                Visited Scholars
+              </h2>
+              <TitleDecorator />
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
+                Our lab welcomes scholars from around the world
+              </p>
+            </div>
+
+            {/* 地图 */}
+            <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+              <VisitedScholarsMap />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   )
 }
