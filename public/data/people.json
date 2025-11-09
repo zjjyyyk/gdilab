@@ -1,10 +1,10 @@
 {
   "professors": [
     {
-      "name": "张伟教授",
-      "photo": "/images/people/person-placeholder.jpg",
-      "research": "计算机视觉、深度学习、模式识别",
-      "email": "zhangwei@university.edu.cn"
+      "name": "李荣华教授",
+      "photo": "/images/people/lironghua.jpg",
+      "research": "图数据智能",
+      "email": "lironghuabit@126.com"
     },
     {
       "name": "李明教授",
