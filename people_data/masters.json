@@ -1,0 +1,152 @@
+[
+    {
+        "name": "喻恺驰",
+        "photo": "/images/people/喻恺驰.jpg",
+        "research": "因果图+大模型/Agent",
+        "email": "kcyu.cs@gmail.com"
+    },
+    {
+        "name": "张子豪",
+        "photo": "/images/people/张子豪.jpg",
+        "research": "图学习，大模型推理，大模型Agent",
+        "email": "zihaozhang648@gmail.com"
+    },
+    {
+        "name": "黎书萌",
+        "photo": "/images/people/黎书萌.jpg",
+        "research": "AI4S AI4Protein",
+        "email": "lishumeng1017@163.com"
+    },
+    {
+        "name": "张智涵",
+        "photo": "/images/people/张智涵.jpg",
+        "research": "大语言模型与图数据质量控制",
+        "email": "1877822704@qq.com"
+    },
+    {
+        "name": "文彦哲",
+        "photo": "/images/people/文彦哲.jpg",
+        "research": "开放世界图学习，大模型",
+        "email": "yzwenbit@163.com"
+    },
+    {
+        "name": "陈泽楷",
+        "photo": "/images/people/陈泽楷.jpg",
+        "research": "GNN",
+        "email": "zackchen02@163.com"
+    },
+    {
+        "name": "李坚辉",
+        "photo": "/images/people/李坚辉.jpg",
+        "research": "大模型agent、rag、系统",
+        "email": "durantlee1006@outlook.com"
+    },
+    {
+        "name": "潘悦阳",
+        "photo": "/images/people/潘悦阳.jpg",
+        "research": "谱图理论",
+        "email": "yypan@bit.edu.cn"
+    },
+    {
+        "name": "鲁昊东",
+        "photo": "/images/people/鲁昊东.jpg",
+        "research": "联邦图学习",
+        "email": "luhaodong19@bit.edu.cn"
+    },
+    {
+        "name": "苏道涵",
+        "photo": "/images/people/苏道涵.jpg",
+        "research": "图神经网络",
+        "email": "dhsu@bit.edu.cn"
+    },
+    {
+        "name": "党浩天",
+        "photo": "/images/people/党浩天.jpg",
+        "research": "图算法–最大、极大团研究",
+        "email": "1120223306@bit.edu.cn"
+    },
+    {
+        "name": "邹知秋",
+        "photo": "/images/people/邹知秋.jpg",
+        "research": "向量检索",
+        "email": "fallleaves01@outlook.com"
+    },
+    {
+        "name": "顾扬",
+        "photo": "/images/people/顾扬.jpg",
+        "research": "图推理",
+        "email": "m18152506597@163.com"
+    },
+    {
+        "name": "李思涵",
+        "photo": "/images/people/李思涵.jpg",
+        "research": "图基础模型",
+        "email": "3199764228@qq.com"
+    },
+    {
+        "name": "韩俊一",
+        "photo": "/images/people/韩俊一.jpg",
+        "research": "AI4SCI",
+        "email": "hanjy_cs@163.com"
+    },
+    {
+        "name": "艾煜明",
+        "photo": "/images/people/艾煜明.jpg",
+        "research": "数据科学与知识工程",
+        "email": "3120201027@bit.edu.cn"
+    },
+    {
+        "name": "张司睿",
+        "photo": "/images/people/张司睿.jpg",
+        "research": "Ai4Science",
+        "email": "joseph.sr.zhang@gmail.com"
+    },
+    {
+        "name": "戴宙辰",
+        "photo": "/images/people/戴宙辰.jpg",
+        "research": "图学习",
+        "email": "2370775795@qq.com"
+    },
+    {
+        "name": "郑俊烽",
+        "photo": "/images/people/郑俊烽.jpg",
+        "research": "大模型应用，RAG",
+        "email": "xiaozheng2003@vip.qq.com"
+    },
+    {
+        "name": "侯佳希",
+        "photo": "/images/people/侯佳希.jpg",
+        "research": "向量检索，具体不知道",
+        "email": "632613729@qq.com"
+    },
+    {
+        "name": "项黎明",
+        "photo": "/images/people/项黎明.jpg",
+        "research": "向量检索",
+        "email": "dawnex@163.com"
+    },
+    {
+        "name": "曹阳",
+        "photo": "/images/people/曹阳.jpg",
+        "research": "多模态图学习",
+        "email": "1634973128@qq.com"
+    },
+    {
+        "name": "曾语欣",
+        "photo": "/images/people/曾语欣.jpg",
+        "research": "AI4Science",
+        "email": "3449515729@qq.com"
+    },
+    {
+        "name": "金昕墨",
+        "photo": "/images/people/金昕墨.jpg",
+        "research": "Graph ML, Ai4science",
+        "email": "1120223541@bit.edu.cn"
+    },
+    {
+        "name": "李宇硕",
+        "photo": "/images/people/李宇硕.jpg",
+        "research": "多模态属性图",
+        "email": "3120250984@bit.edu.cn"
+    }
+]

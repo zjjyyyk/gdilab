@@ -1,0 +1,86 @@
+[
+    {
+        "name": "邬征宇",
+        "photo": "/images/people/邬征宇.jpg",
+        "research": "联邦图学习",
+        "email": "jeremywzy96@outlook.com"
+    },
+    {
+        "name": "杨一春",
+        "photo": "/images/people/杨一春.jpg",
+        "research": "谱图算法",
+        "email": "yc.yang@bit.edu.cn"
+    },
+    {
+        "name": "李洵楷",
+        "photo": "/images/people/李洵楷.jpg",
+        "research": "以数据为中心的图智能、多模态与大模型、AI4Science",
+        "email": "cs.xunkai.li@gmail.com"
+    },
+    {
+        "name": "吴佳毅",
+        "photo": "/images/people/吴佳毅.jpg",
+        "research": "负采样推荐，图数据库异常检测，量化特征挖掘，欺诈团体检测",
+        "email": "wjybit97@outlook.com"
+    },
+    {
+        "name": "曾越",
+        "photo": "/images/people/曾越.jpg",
+        "research": "图挖掘算法",
+        "email": "bruceez@163.com"
+    },
+    {
+        "name": "冷小雨",
+        "photo": "/images/people/冷小雨.jpg",
+        "research": "时序图匹配，超图分解",
+        "email": "366148267@qq.com"
+    },
+    {
+        "name": "蒋佳祺",
+        "photo": "/images/people/蒋佳祺.jpg",
+        "research": "图数据挖掘，GPU加速",
+        "email": "jiangjiaqi686@163.com"
+    },
+    {
+        "name": "吴翔",
+        "photo": "/images/people/吴翔.jpg",
+        "research": "图学习，拓扑数据分析",
+        "email": "xiangwubit@163.com"
+    },
+    {
+        "name": "邢宝",
+        "photo": "/images/people/邢宝.jpg",
+        "research": "谱图理论",
+        "email": "m13488542371@163.com"
+    },
+    {
+        "name": "崔冬航",
+        "photo": "/images/people/崔冬航.jpg",
+        "research": "稠密子图枚举",
+        "email": "987243094@qq.com"
+    },
+    {
+        "name": "李诚",
+        "photo": "/images/people/李诚.jpg",
+        "research": "谱图理论，图随机游走，电阻距离",
+        "email": "lichengbit@bit.edu.cn"
+    },
+    {
+        "name": "周俊杰",
+        "photo": "/images/people/周俊杰.jpg",
+        "research": "谱图 pagerank",
+        "email": "791549989@qq.com"
+    },
+    {
+        "name": "李泽宁",
+        "photo": "/images/people/李泽宁.jpg",
+        "research": "隐私保护，图神经网络",
+        "email": "zening-li@outlook.com"
+    },
+    {
+        "name": "廖美昊",
+        "photo": "/images/people/廖美昊.jpg",
+        "research": "谱图理论，图矩阵计算",
+        "email": "mhliao@bit.edu.cn"
+    }
+]

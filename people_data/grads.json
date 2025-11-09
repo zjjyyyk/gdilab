@@ -1,0 +1,188 @@
+[
+    {
+        "name": "叶小伟",
+        "photo": "/images/people/叶小伟.jpg",
+        "research": "图计算，图数据库，子图匹配，图数据社区挖掘，RAG等大模型幻觉解决方案",
+        "email": "yexiaowei@bit.edu.cn"
+    },
+    {
+        "name": "孙赫男",
+        "photo": "/images/people/孙赫男.jpg",
+        "research": "图神经网络",
+        "email": "magneto0617@foxmail.com"
+    },
+    {
+        "name": "马泽航",
+        "photo": "/images/people/马泽航.jpg",
+        "research": "已毕业",
+        "email": "mzh_1999@yeah.net"
+    },
+    {
+        "name": "佘俊志",
+        "photo": "/images/people/佘俊志.jpg",
+        "research": "多模态文档问答",
+        "email": "spshe2021@163.com"
+    },
+    {
+        "name": "范博文",
+        "photo": "/images/people/范博文.jpg",
+        "research": "图神经网络，图遗忘学习，图攻击，大语言模型",
+        "email": "3220241345@bit.edu.cn"
+    },
+    {
+        "name": "高森",
+        "photo": "/images/people/高森.jpg",
+        "research": "数据库系统，图系统，并行与分布式计算",
+        "email": "Gawssin@gmail.com"
+    },
+    {
+        "name": "任泽槟",
+        "photo": "/images/people/任泽槟.jpg",
+        "research": "图算法",
+        "email": "zebinren97@gmail.com"
+    },
+    {
+        "name": "尹梓琦",
+        "photo": "/images/people/尹梓琦.jpg",
+        "research": "图算法",
+        "email": "ziqi003@e.ntu.edu.sg"
+    },
+    {
+        "name": "李挺",
+        "photo": "/images/people/李挺.jpg",
+        "research": "图神经网络",
+        "email": "litingbit@163.com"
+    },
+    {
+        "name": "徐兰天",
+        "photo": "/images/people/徐兰天.jpg",
+        "research": "图算法",
+        "email": "ltxu2021@gmail.com"
+    },
+    {
+        "name": "康驻关",
+        "photo": "/images/people/康驻关.jpg",
+        "research": "已毕业",
+        "email": "kzg8267@163.com"
+    },
+    {
+        "name": "潘敏佳",
+        "photo": "/images/people/潘敏佳.jpg",
+        "research": "非在校生",
+        "email": "panminjia_cs@163.com"
+    },
+    {
+        "name": "胡旭阳",
+        "photo": "/images/people/胡旭阳.jpg",
+        "research": "知识图谱 图学习",
+        "email": "huxy912@163.com"
+    },
+    {
+        "name": "胡仲则",
+        "photo": "/images/people/胡仲则.jpg",
+        "research": "图数据管理与挖掘",
+        "email": "dkisno1@sina.com"
+    },
+    {
+        "name": "张亚龙",
+        "photo": "/images/people/张亚龙.jpg",
+        "research": "稠密子图",
+        "email": "yalong-zhang@qq.com"
+    },
+    {
+        "name": "陈子健",
+        "photo": "/images/people/陈子健.jpg",
+        "research": "图神经网络",
+        "email": "blockchanzj@163.com"
+    },
+    {
+        "name": "陈久健",
+        "photo": "/images/people/陈久健.jpg",
+        "research": "毕业",
+        "email": "jiujianchen@hotmail.com"
+    },
+    {
+        "name": "赵英伏",
+        "photo": "/images/people/赵英伏.jpg",
+        "research": "已毕业",
+        "email": "1721359958@qq.com"
+    },
+    {
+        "name": "张嘉辉",
+        "photo": "/images/people/张嘉辉.jpg",
+        "research": "已毕业",
+        "email": "jhzhang97@163.com"
+    },
+    {
+        "name": "尚楠",
+        "photo": "/images/people/尚楠.jpg",
+        "research": "-",
+        "email": "595526540@qq.com"
+    },
+    {
+        "name": "龙水彬",
+        "photo": "/images/people/龙水彬.jpg",
+        "research": "知识图谱与图神经网络",
+        "email": "dragon60066@163.com"
+    },
+    {
+        "name": "郑天欣",
+        "photo": "/images/people/郑天欣.jpg",
+        "research": "已毕业",
+        "email": "1604582775@qq.com"
+    },
+    {
+        "name": "朱贺",
+        "photo": "/images/people/朱贺.jpg",
+        "research": "知识图谱",
+        "email": "710358646@qq.com"
+    },
+    {
+        "name": "于瀚文",
+        "photo": "/images/people/于瀚文.jpg",
+        "research": "图论 稠密子图挖掘",
+        "email": "806645943@qq.com"
+    },
+    {
+        "name": "杨世宇",
+        "photo": "/images/people/杨世宇.jpg",
+        "research": "图神经网络",
+        "email": "1017253916@qq.com"
+    },
+    {
+        "name": "侯景乐",
+        "photo": "/images/people/侯景乐.jpg",
+        "research": "云计算，图算法",
+        "email": "1779870177@qq.com"
+    },
+    {
+        "name": "付俊华",
+        "photo": "/images/people/付俊华.jpg",
+        "research": "知识图谱",
+        "email": "775242987@qq.com"
+    },
+    {
+        "name": "马渊沐",
+        "photo": "/images/people/马渊沐.jpg",
+        "research": "图神经网络",
+        "email": "257856034@qq.com"
+    },
+    {
+        "name": "左丰源",
+        "photo": "/images/people/左丰源.jpg",
+        "research": "1",
+        "email": "776930994@qq.com"
+    },
+    {
+        "name": "孟雨辰",
+        "photo": "/images/people/孟雨辰.jpg",
+        "research": "无",
+        "email": "meng_yc@163.com"
+    },
+    {
+        "name": "卢茜君",
+        "photo": "/images/people/卢茜君.jpg",
+        "research": "图神经网络",
+        "email": "luxijun@outlook.com"
+    }
+]
