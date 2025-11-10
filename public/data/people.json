@@ -3,7 +3,7 @@
     {
       "name": "李荣华教授",
       "photo": "/images/people/lironghua.jpg",
-      "research": "图数据智能、图算法、谱图理论、图学习于大模型、AI4Science等",
+      "research": "图数据智能、图算法、谱图理论、图学习与大模型、AI4Science等",
       "email": "lironghuabit@126.com",
       "homepage": "https://ronghuali.github.io/"
     },
@@ -160,6 +160,12 @@
         "email": "yypan@bit.edu.cn"
     },
     {
+        "name": "佘俊志",
+        "photo": "/images/people/佘俊志.jpg",
+        "research": "大模型、RAG",
+        "email": "spshe2021@163.com"
+    },
+    {
         "name": "李坚辉",
         "photo": "/images/people/李坚辉.jpg",
         "research": "大模型agent、rag、系统",
@@ -216,7 +222,7 @@
     {
         "name": "艾煜明",
         "photo": "/images/people/艾煜明.jpg",
-        "research": "数据科学与知识工程",
+        "research": "图遗忘学习、图联邦学习",
         "email": "3120201027@bit.edu.cn"
     },
     {
@@ -264,7 +270,7 @@
     {
         "name": "韩俊一",
         "photo": "/images/people/韩俊一.jpg",
-        "research": "AI4SCI",
+        "research": "大模型、RAG",
         "email": "hanjy_cs@163.com"
     }
   ],
@@ -318,193 +324,272 @@
         "photo": "/images/people/张琦.jpg",
         "research": "图数据管理，稠密子图搜索，图算法",
         "email": "qizhangcs@ustb.edu.cn",
-        "homepage": "https://qizhang1996.github.io/"
+        "homepage": "https://qizhang1996.github.io/",
+        "destination" : "北京科技大学 副教授"
     },
     {
         "name": "孙赫男",
         "photo": "/images/people/孙赫男.jpg",
         "research": "图神经网络",
-        "email": "magneto0617@foxmail.com"
+        "email": "magneto0617@foxmail.com",
+        "destination" : "香港科技大学（广州） 博士"
     },
     {
         "name": "马泽航",
         "photo": "/images/people/马泽航.jpg",
         "research": null,
-        "email": "mzh_1999@yeah.net"
-    },
-    {
-        "name": "佘俊志",
-        "photo": "/images/people/佘俊志.jpg",
-        "research": "多模态文档问答",
-        "email": "spshe2021@163.com"
+        "email": "mzh_1999@yeah.net",
+        "destination" : "北京宇航系统工程研究所"
     },
     {
         "name": "高森",
         "photo": "/images/people/高森.jpg",
         "research": "数据库系统，图系统，并行与分布式计算",
-        "email": "Gawssin@gmail.com"
+        "email": "Gawssin@gmail.com",
+        "destination" : "新加坡国立大学 博士"
     },
     {
         "name": "任泽槟",
         "photo": "/images/people/任泽槟.jpg",
         "research": "图算法",
-        "email": "zebinren97@gmail.com"
+        "email": "zebinren97@gmail.com",
+        "destination" : "VU Amsterdam"
     },
     {
         "name": "尹梓琦",
         "photo": "/images/people/尹梓琦.jpg",
         "research": "图算法",
-        "email": "ziqi003@e.ntu.edu.sg"
+        "email": "ziqi003@e.ntu.edu.sg",
+        "destination" : "NTU 博士"
     },
     {
         "name": "李挺",
         "photo": "/images/people/李挺.jpg",
         "research": "图神经网络",
-        "email": "litingbit@163.com"
+        "email": "litingbit@163.com",
+        "destination" : "北京航天自动控制研究所"
     },
     {
         "name": "徐兰天",
         "photo": "/images/people/徐兰天.jpg",
         "research": "图算法",
-        "email": "ltxu2021@gmail.com"
+        "email": "ltxu2021@gmail.com",
+        "destination" : "悉尼科技大学 博士"
     },
     {
         "name": "康驻关",
         "photo": "/images/people/康驻关.jpg",
         "research": null,
-        "email": "kzg8267@163.com"
+        "email": "kzg8267@163.com",
+        "destination" : "中国农业银行总行本部"
     },
     {
         "name": "潘敏佳",
         "photo": "/images/people/潘敏佳.jpg",
         "research": null,
-        "email": "panminjia_cs@163.com"
+        "email": "panminjia_cs@163.com",
+        "destination" : "宁波市鄞州区营商环境建设办公室"
     },
     {
         "name": "胡旭阳",
         "photo": "/images/people/胡旭阳.jpg",
         "research": "知识图谱 图学习",
-        "email": "huxy912@163.com"
+        "email": "huxy912@163.com",
+        "destination" : "上海人工智能实验室"
     },
     {
         "name": "胡仲则",
         "photo": "/images/people/胡仲则.jpg",
         "research": "图数据管理与挖掘",
-        "email": "dkisno1@sina.com"
+        "email": "dkisno1@sina.com",
+        "destination" : "科研院所"
     },
     {
         "name": "张亚龙",
         "photo": "/images/people/张亚龙.jpg",
         "research": "稠密子图",
-        "email": "yalong-zhang@qq.com"
+        "email": "yalong-zhang@qq.com",
+        "destination" : "新南威尔士大学"
     },
     {
         "name": "陈子健",
         "photo": "/images/people/陈子健.jpg",
         "research": "图神经网络",
-        "email": "blockchanzj@163.com"
+        "email": "blockchanzj@163.com",
+        "destination" : "阿里云holongrs"
     },
     {
         "name": "陈久健",
         "photo": "/images/people/陈久健.jpg",
         "research": null,
-        "email": "jiujianchen@hotmail.com"
+        "email": "jiujianchen@hotmail.com",
+        "destination" : "国网福建信通公司"
     },
     {
         "name": "赵英伏",
         "photo": "/images/people/赵英伏.jpg",
         "research": null,
-        "email": "1721359958@qq.com"
+        "email": "1721359958@qq.com",
+        "destination" : "中国工商银行辽宁省分行"
     },
     {
         "name": "张嘉辉",
         "photo": "/images/people/张嘉辉.jpg",
         "research": null,
-        "email": "jhzhang97@163.com"
+        "email": "jhzhang97@163.com",
+        "destination" : "阿里云"
     },
     {
         "name": "尚楠",
         "photo": "/images/people/尚楠.jpg",
         "research": null,
-        "email": "595526540@qq.com"
+        "email": "595526540@qq.com",
+        "destination" : "国家开发银行信息科技部"
     },
     {
         "name": "龙水彬",
         "photo": "/images/people/龙水彬.jpg",
         "research": "知识图谱与图神经网络",
-        "email": "dragon60066@163.com"
+        "email": "dragon60066@163.com",
+        "destination" : "阿里巴巴"
     },
     {
         "name": "郑天欣",
         "photo": "/images/people/郑天欣.jpg",
         "research": null,
-        "email": "1604582775@qq.com"
+        "email": "1604582775@qq.com",
+        "destination" : "光大银行北京分行"
     },
     {
         "name": "朱贺",
         "photo": "/images/people/朱贺.jpg",
         "research": "知识图谱",
-        "email": "710358646@qq.com"
+        "email": "710358646@qq.com",
+        "destination" : "北京沃东天骏信息技术有限公司"
     },
     {
         "name": "于瀚文",
         "photo": "/images/people/于瀚文.jpg",
         "research": "图论 稠密子图挖掘",
-        "email": "806645943@qq.com"
+        "email": "806645943@qq.com",
+        "destination" : "北京华钧广汇投资管理有限公司"
     },
     {
         "name": "杨世宇",
         "photo": "/images/people/杨世宇.jpg",
         "research": "图神经网络",
-        "email": "1017253916@qq.com"
+        "email": "1017253916@qq.com",
+        "destination" : "快手"
     },
     {
         "name": "侯景乐",
         "photo": "/images/people/侯景乐.jpg",
         "research": "云计算，图算法",
-        "email": "1779870177@qq.com"
+        "email": "1779870177@qq.com",
+        "destination" : "工商银行陕西省分行本部"
     },
     {
         "name": "付俊华",
         "photo": "/images/people/付俊华.jpg",
         "research": "知识图谱",
-        "email": "775242987@qq.com"
+        "email": "775242987@qq.com",
+        "destination" : "部队"
     },
     {
         "name": "马渊沐",
         "photo": "/images/people/马渊沐.jpg",
         "research": "图神经网络",
-        "email": "257856034@qq.com"
+        "email": "257856034@qq.com",
+        "destination" : null
     },
     {
         "name": "左丰源",
         "photo": "/images/people/左丰源.jpg",
         "research": null,
-        "email": "776930994@qq.com"
+        "email": "776930994@qq.com",
+        "destination" : "国家开发银行"
     },
     {
         "name": "孟雨辰",
         "photo": "/images/people/孟雨辰.jpg",
         "research": null,
-        "email": "meng_yc@163.com"
+        "email": "meng_yc@163.com",
+        "destination" : "百度"
     },
     {
         "name": "卢茜君",
         "photo": "/images/people/卢茜君.jpg",
         "research": "图神经网络",
-        "email": "luxijun@outlook.com"
+        "email": "luxijun@outlook.com",
+        "destination" : "中国人寿"
     },
     {
         "name": "乔梓峰",
         "photo": "/images/people/乔梓峰.jpg",
         "research": "图神经网络，图表示学习",
-        "email": "2929196936@qq.com"
+        "email": "2929196936@qq.com",
+        "destination" : "中国联通"
     },
     {
         "name": "王彪",
         "photo": "/images/people/王彪.jpg",
         "research": "图数据",
-        "email": "799089663@qq.com"
+        "email": "799089663@qq.com",
+        "destination" : "互联网"
+    },
+    {
+        "name": "程苗苗",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "崔东梅",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "康驻关",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "刘瑞奇",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "易晗",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "鲁多",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "吴可心",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "郑艺",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "陈久健",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
     }
   ]
 }
