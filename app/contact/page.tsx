@@ -1,10 +1,17 @@
+'use client'
+
+import { useState } from 'react'
 import { siteConfig } from '@/config/site.config'
 import TitleDecorator from '@/components/TitleDecorator'
+import QRCodeModal from '@/components/QRCodeModal'
 
 export default function ContactUs() {
+  const [showWechatQR, setShowWechatQR] = useState(false)
+
   return (
-    <div className="py-8 sm:py-12 px-4 bg-gray-50">
-      <div className="max-w-4xl mx-auto">
+    <>
+      <div className="py-8 sm:py-12 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto">
         {/* 标题 */}
         <h1 className="text-center text-gray-800 text-xl sm:text-2xl font-bold" style={{ fontFamily: 'Montserrat, sans-serif' }}>
           Contact Us
@@ -57,6 +64,17 @@ export default function ContactUs() {
                   📖 Zhihu (知乎)
                 </a>
               </div>
+              <p className="mb-3 mt-4">
+                <strong>WeChat Official Account (微信公众号):</strong>
+              </p>
+              <div className="ml-2 sm:ml-4">
+                <button
+                  onClick={() => setShowWechatQR(true)}
+                  className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer"
+                >
+                  💬 点击查看微信公众号二维码
+                </button>
+              </div>
             </section>
 
             {/* 招生信息 */}
@@ -95,5 +113,14 @@ export default function ContactUs() {
         </div>
       </div>
     </div>
+
+    {/* 微信公众号二维码模态框 */}
+    <QRCodeModal 
+      isOpen={showWechatQR}
+      onClose={() => setShowWechatQR(false)}
+      qrCodePath={siteConfig.social.wechatQRCode}
+      title="微信公众号"
+    />
+  </>
   )
 }

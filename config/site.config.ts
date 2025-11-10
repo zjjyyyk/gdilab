@@ -19,7 +19,8 @@ export const siteConfig = {
   // 社交媒体
   social: {
     xiaohongshu: 'https://www.xiaohongshu.com/user/profile/690866e30000000031016298',
-    zhihu: 'https://www.zhihu.com/people/lironghuabit'
+    zhihu: 'https://www.zhihu.com/people/lironghuabit',
+    wechatQRCode: '/images/qrcode.jpg'  // 微信公众号二维码图片路径
   },
 
   // 版权信息
