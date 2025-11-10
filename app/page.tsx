@@ -44,7 +44,7 @@ export default function Home() {
             {/* 标题和装饰 */}
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                Visited Scholars
+                Visitor Map
               </h2>
               <TitleDecorator />
               <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
