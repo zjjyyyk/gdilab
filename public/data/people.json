@@ -5,11 +5,21 @@
       "photo": "/images/people/lironghua.jpg",
       "research": "图数据智能",
       "email": "lironghuabit@126.com"
-    }
-  ],
-  "postdocs": [
+    },
     {
-        "name": "代强强",
+        "name": "秦宏超教授",
+        "photo": "/images/people/秦宏超.jpg",
+        "research": "社区挖掘、新型图挖掘、知识图谱等",
+        "email": "hcqin@bit.edu.cn"
+    },
+    {
+        "name": "张琦教授",
+        "photo": "/images/people/张琦.jpg",
+        "research": "图数据管理，稠密子图搜索，图算法",
+        "email": "qizhangcs@ustb.edu.cn"
+    },
+    {
+        "name": "代强强教授",
         "photo": "/images/people/代强强.jpg",
         "research": "图数据管理与挖掘，社交网络分析，图计算",
         "email": "qiangd66@gmail.com"
