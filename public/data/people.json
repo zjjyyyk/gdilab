@@ -103,7 +103,7 @@
     {
         "name": "李诚",
         "photo": "/images/people/李诚.jpg",
-        "research": "谱图理论，图随机游走，电阻距离",
+        "research": "谱图理论，随机游走，电阻距离",
         "email": "lichengbit@bit.edu.cn"
     }
   ],
@@ -277,7 +277,7 @@
     {
         "name": "马泽航",
         "photo": "/images/people/马泽航.jpg",
-        "research": "已毕业",
+        "research": null,
         "email": "mzh_1999@yeah.net"
     },
     {
@@ -319,13 +319,13 @@
     {
         "name": "康驻关",
         "photo": "/images/people/康驻关.jpg",
-        "research": "已毕业",
+        "research": null,
         "email": "kzg8267@163.com"
     },
     {
         "name": "潘敏佳",
         "photo": "/images/people/潘敏佳.jpg",
-        "research": "非在校生",
+        "research": null,
         "email": "panminjia_cs@163.com"
     },
     {
@@ -355,25 +355,25 @@
     {
         "name": "陈久健",
         "photo": "/images/people/陈久健.jpg",
-        "research": "毕业",
+        "research": null,
         "email": "jiujianchen@hotmail.com"
     },
     {
         "name": "赵英伏",
         "photo": "/images/people/赵英伏.jpg",
-        "research": "已毕业",
+        "research": null,
         "email": "1721359958@qq.com"
     },
     {
         "name": "张嘉辉",
         "photo": "/images/people/张嘉辉.jpg",
-        "research": "已毕业",
+        "research": null,
         "email": "jhzhang97@163.com"
     },
     {
         "name": "尚楠",
         "photo": "/images/people/尚楠.jpg",
-        "research": "-",
+        "research": null,
         "email": "595526540@qq.com"
     },
     {
@@ -385,7 +385,7 @@
     {
         "name": "郑天欣",
         "photo": "/images/people/郑天欣.jpg",
-        "research": "已毕业",
+        "research": null,
         "email": "1604582775@qq.com"
     },
     {
@@ -427,13 +427,13 @@
     {
         "name": "左丰源",
         "photo": "/images/people/左丰源.jpg",
-        "research": "1",
+        "research": null,
         "email": "776930994@qq.com"
     },
     {
         "name": "孟雨辰",
         "photo": "/images/people/孟雨辰.jpg",
-        "research": "无",
+        "research": null,
         "email": "meng_yc@163.com"
     },
     {
