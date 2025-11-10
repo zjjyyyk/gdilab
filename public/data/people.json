@@ -8,14 +8,14 @@
       "homepage": "https://ronghuali.github.io/"
     },
     {
-        "name": "秦宏超教授",
+        "name": "秦宏超助理教授",
         "photo": "/images/people/秦宏超.jpg",
         "research": "社区挖掘、新型图挖掘、知识图谱等",
         "email": "hcqin@bit.edu.cn",
         "homepage": "https://qinhc.github.io/"
     },
     {
-        "name": "代强强教授",
+        "name": "代强强副教授",
         "photo": "/images/people/代强强.jpg",
         "research": "图数据管理与挖掘，社交网络分析，图计算",
         "email": "qiangd66@gmail.com",
@@ -316,9 +316,43 @@
         "photo": "/images/people/刘思呈.jpg",
         "research": null,
         "email": null
+    },
+    {
+        "name": "邓雅馨",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "梁思源",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "全威",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null
     }
   ],
   "alumni": [
+    {
+        "name": "秦宏超",
+        "photo": "/images/people/秦宏超.jpg",
+        "research": "社区挖掘、新型图挖掘、知识图谱等",
+        "email": "hcqin@bit.edu.cn",
+        "homepage": "https://qinhc.github.io/",
+        "destination" : "北京理工大学 助理教授"
+    },
+    {
+        "name": "代强强",
+        "photo": "/images/people/代强强.jpg",
+        "research": "图数据管理与挖掘，社交网络分析，图计算",
+        "email": "qiangd66@gmail.com",
+        "homepage": "https://qq-dai.github.io/",
+        "destination" : "北京理工大学 副教授"
+    },
     {
         "name": "张琦",
         "photo": "/images/people/张琦.jpg",
@@ -500,7 +534,7 @@
         "photo": "/images/people/马渊沐.jpg",
         "research": "图神经网络",
         "email": "257856034@qq.com",
-        "destination" : null
+        "destination" : "部队"
     },
     {
         "name": "左丰源",
@@ -535,7 +569,7 @@
         "photo": "/images/people/王彪.jpg",
         "research": "图数据",
         "email": "799089663@qq.com",
-        "destination" : "互联网"
+        "destination" : "拼多多"
     },
     {
         "name": "程苗苗",
@@ -544,7 +578,7 @@
         "email": null
     },
     {
-        "name": "崔东梅",
+        "name": "崔冬梅",
         "photo": "/images/people/null.jpg",
         "research": null,
         "email": null
