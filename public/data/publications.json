@@ -1,12 +1,39 @@
 [
   {
     "year": 2026,
+    "authors": "Yuming Ai, Xunkai Li, Jiaqi Chao, Bowen Fan, Zhengyu Wu, Yinlin Zhu, Rong-Hua Li*, Guoren Wang",
+    "title": "PAGE: A Unified Approach for Federated Graph Unlearning",
+    "venue": "AAAI 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "GLLLM"
+  },
+  {
+    "year": 2026,
+    "authors": "Longlong Lin, Quanao Li, Miao Qiao, Zeli Wang, Jin Zhao, Rong-Hua Li, Xin Luo, Tao Jia",
+    "title": "NCSAC: Effective Neural Community Search via Attribute-augmented Conductance",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Jiaqi Jiang, Rong-Hua Li*, Longlong Lin, Yalong Zhang, Yue Zeng, Xiaowei Ye, Guoren Wang",
+    "title": "Pseudoarboricity-Based Skyline Important Community Search in Large Networks",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
     "authors": "Qi Zhang, Yalong Zhang, Rong-Hua Li*, Xu-Cheng Yin, Guoren Wang",
     "title": "Querying Historical k-Dense Subgraphs On Temporal graphs",
     "venue": "ICDE 2026 (Accepted)",
     "pdf": null,
     "code": null,
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2026,
@@ -15,7 +42,7 @@
     "venue": "ICDE 2026 (Accepted)",
     "pdf": null,
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2026,
@@ -42,7 +69,7 @@
     "venue": "SIGMOD 2026 (Accepted)",
     "pdf": null,
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2026,
@@ -141,7 +168,7 @@
     "venue": "SIGMOD 2025",
     "pdf": "https://ronghuali.github.io/PaperFiles/Minimum Spanning Tree Maintenance in Dynamic Graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2025,
@@ -186,7 +213,7 @@
     "venue": "SIGMOD 2025",
     "pdf": "https://ronghuali.github.io/PaperFiles/Constant-time Connectivity Querying in Dynamic Graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2025,
@@ -222,7 +249,7 @@
     "venue": "VLDB 2025",
     "pdf": "https://ronghuali.github.io/PaperFiles/Topology-preserving Graph Coarsening  An Elementary Collapse-based Approach.pdf",
     "code": "https://github.com/Shiina-Mashiro-M/GEC",
-    "class": "AGA"
+    "class": "TGA"
   },
   {
     "year": 2025,
@@ -240,7 +267,7 @@
     "venue": "ICDE 2025",
     "pdf": "https://ronghuali.github.io/PaperFiles/On Temporal-Constraint Subgraph Matching.pdf",
     "code": "https://github.com/xiaoyu-ll/TSI",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2025,
@@ -312,7 +339,7 @@
     "venue": "IEEE Transactions on Big Data 11(2): 402-413 (2025)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Effective Personalized Search With Heterogeneous Graph Based Hawkes Process.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "GLLLM"
   },
   {
     "year": 2024,
@@ -366,7 +393,7 @@
     "venue": "VLDB 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/QTCS Efficient Query-Centered Temporal Community Search.pdf",
     "code": "https://github.com/ronghuali/QTCS",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2024,
@@ -375,7 +402,7 @@
     "venue": "VLDB 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Algorithms for Pseudoarboricity Computation in Large Static and Dynamic Graphs.pdf",
     "code": "https://github.com/ronghuali/Pseudoarboricity-Computation",
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2024,
@@ -429,7 +456,7 @@
     "venue": "ICDE 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Quasi-Periodic Communities in Temporal Network.pdf",
     "code": "https://github.com/ronghuali/qpcommunity",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2024,
@@ -474,7 +501,7 @@
     "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/Encoding Group Interests With Persistent Homology for Personalized Search.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "TGA"
   },
   {
     "year": 2024,
@@ -483,7 +510,7 @@
     "venue": "CIKM 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/Privacy-Preserving Graph Embedding based on Local Differential.pdf",
     "code": "https://github.com/Zening-Li/PrivGE",
-    "class": "GLLLM"
+    "class": "AGA"
   },
   {
     "year": 2024,
@@ -564,7 +591,7 @@
     "venue": "ICDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Neighborhood_Skyline_on_Graphs_Concepts_Algorithms_and_Applications.pdf",
     "code": "https://github.com/ronghuali/neighborhoodskylines",
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2023,
@@ -573,7 +600,7 @@
     "venue": "ICDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Explainable Hyperlink Prediction.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2023,
@@ -600,7 +627,7 @@
     "venue": "TKDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Temporal_Graph_Cube.pdf",
     "code": null,
-    "class": "TGA"
+    "class": "GLLLM"
   },
   {
     "year": 2023,
@@ -618,7 +645,7 @@
     "venue": "TKDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Densest Periodic Subgraph Mining on Large Temporal Graphs.pdf",
     "code": null,
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2023,
@@ -627,7 +654,7 @@
     "venue": "TKDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Stable Subgraph Isomorphism Search in Temporal Networks.pdf",
     "code": null,
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2023,
@@ -681,7 +708,7 @@
     "venue": "Proc. VLDB Endow. 15(10): 2098-2110, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Shortest Path Counting on Large Road Networks.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -690,7 +717,7 @@
     "venue": "Proc. VLDB Endow. 15(13): 3911-3923, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Bursting Core in Large Temporal Graph.pdf",
     "code": "https://github.com/ronghuali/MBC/",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -699,7 +726,7 @@
     "venue": "Proc. VLDB Endow. 16(2): 343-355, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Approximating Probabilistic Group Steiner Trees in Graphs.pdf",
     "code": "https://github.com/ronghuali/PGST",
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -726,7 +753,7 @@
     "venue": "ICDE 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Top-k Ego-Betweenness Search.pdf",
     "code": "https://github.com/ronghuali/egobetweenness",
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -753,7 +780,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering, 34(7): 3335-3348, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/IO-Efficient Algorithms for Degeneracy Computation on Massive Networks.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -762,7 +789,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering, 34(8): 3927-3945, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Periodic Communities Mining in Temporal Networks Concepts and Algorithms.pdf",
     "code": "https://github.com/ronghuali/MPC/",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -798,7 +825,7 @@
     "venue": "IJCAI 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Filtration-Enhanced Graph Transformation.pdf",
     "code": "https://github.com/ronghuali/Filtration-Enhanced-Graph-Transformation",
-    "class": "GLLLM"
+    "class": "TGA"
   },
   {
     "year": 2022,
@@ -807,7 +834,7 @@
     "venue": "IEEE Transactions on Big Data 8(3): 671-684, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Stable Communities in Temporal Networks by Density-based Clustering.pdf",
     "code": "https://github.com/ronghuali/TSCAN/",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -816,7 +843,7 @@
     "venue": "IEEE Transactions on Big Data 8(6): 1537-1549, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Diversified Top-r Lasting Cohesive Subgraphs on Temporal Networks.pdf",
     "code": "https://github.com/ronghuali/DLCP",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2022,
@@ -825,7 +852,7 @@
     "venue": "IEEE Trans. Syst. Man Cybern. Syst. 52(6): 3731-3745, 2022",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Stable Quasi-Cliques on Temporal Networks.pdf",
     "code": "https://github.com/ronghuali/MSQC",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2021,
@@ -879,7 +906,7 @@
     "venue": "ICDE 2020: 205-216",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Top-k Edge Structural Diversity Search.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2019,
@@ -888,7 +915,7 @@
     "venue": "SIGMOD 2019: 1339-1356",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Estimation of Heat Kernel PageRank for Local Clustering.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2019,
@@ -915,7 +942,7 @@
     "venue": "ICDE 2019: 1130-1141",
     "pdf": "https://ronghuali.github.io/PaperFiles/Mining Periodic Cliques in Temporal Networks.pdf",
     "code": "https://github.com/ronghuali/MPC",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2019,
@@ -942,7 +969,7 @@
     "venue": "Applied Mathematics and Computation 363 (2019)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Anti-k-labeling of graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2019,
@@ -951,7 +978,7 @@
     "venue": "Theoretical Computer Science, 2019",
     "pdf": "https://ronghuali.github.io/PaperFiles/Structure fault tolerance of k-ary n-cube networks.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2019,
@@ -960,7 +987,7 @@
     "venue": "IEEE Trans. Systems, Man, and Cybernetics: Systems 49(1): 265-278 (2019)",
     "pdf": "https://ronghuali.github.io/PaperFiles/A Hybrid Attribute Discrimination Method for Psychometric Data With Fuzziness.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2018,
@@ -987,7 +1014,7 @@
     "venue": "ICDE 2018: 797-808",
     "pdf": "https://ronghuali.github.io/PaperFiles/Persistent Community Search in Temporal Networks.pdf",
     "code": "https://github.com/ronghuali/tcore",
-    "class": "TGA"
+    "class": "CGA"
   },
   {
     "year": 2018,
@@ -1005,7 +1032,7 @@
     "venue": "IEEE Trans. Information Forensics and Security 13(11): 2677-2690 (2018)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Secure Hashing-Based Verifiable Pattern Matching.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2017,
@@ -1023,7 +1050,7 @@
     "venue": "IEEE Trans. Intelligent Transportation Systems 19(7): 2305-2315 (2018)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Predicting Long-Term Trajectories of Connected Vehicles via the Prefix-Projection Technique.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2016,
@@ -1032,7 +1059,7 @@
     "venue": "SIGMOD Conference 2016: 91-106",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient and Progressive Group Steiner Tree Search.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2016,
@@ -1041,7 +1068,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering 28(2): 468-482 (2016)",
     "pdf": "https://ronghuali.github.io/PaperFiles/A New Framework for Query Evaluation on Uncertain Graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2016,
@@ -1050,7 +1077,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering 28(3): 770-784 (2016)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Optimal Multi-Meeting-Point Route Search.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2016,
@@ -1077,7 +1104,7 @@
     "venue": "VLDB Journal 24(3): 319-343 (2015)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Top-K structural diversity search in large networks(2015).pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2015,
@@ -1095,7 +1122,7 @@
     "venue": "ICDE 2015: 927-938",
     "pdf": "https://ronghuali.github.io/PaperFiles/On random walk based graph sampling.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2014,
@@ -1113,7 +1140,7 @@
     "venue": "ICDE 2014: 736-747",
     "pdf": "https://ronghuali.github.io/PaperFiles/Random-walk domination in large graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2014,
@@ -1122,7 +1149,7 @@
     "venue": "ICDE 2014: 892-903",
     "pdf": "https://ronghuali.github.io/PaperFiles/Efficient and accurate query evaluation on uncertain graphs via recursive stratified sampling.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2013,
@@ -1131,7 +1158,7 @@
     "venue": "PVLDB 6(13): 1618-1629 (2013)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Top-K Structural Diversity Search in Large Networks(2013).pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2013,
@@ -1140,7 +1167,7 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering 25(9): 2133-2146 (2013)",
     "pdf": "https://ronghuali.github.io/PaperFiles/Scalable Diversified Ranking on Large Graphs.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2012,
@@ -1149,7 +1176,7 @@
     "venue": "SDM 2012: 612-623",
     "pdf": "https://ronghuali.github.io/PaperFiles/Robust Reputation-Based Ranking on Bipartite Rating Networks.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   },
   {
     "year": 2011,
@@ -1158,6 +1185,6 @@
     "venue": "CIKM 2011: 1147-1156",
     "pdf": "https://ronghuali.github.io/PaperFiles/Link prediction the power of maximal entropy random walk.pdf",
     "code": null,
-    "class": "AGA"
+    "class": "CGA"
   }
 ]

@@ -26,43 +26,17 @@ export default function People() {
               <TitleDecorator />
             
               {/* 人员网格 - 响应式布局 */}
-              {section.key === 'professors' ? (
-                <>
-                  {/* 第一位教授单独一行并居中 */}
-                  {section.data[0] && (
-                    <div className="w-full flex justify-center mt-6 sm:mt-10 pt-2 sm:pt-4">
-                      <PersonCard person={section.data[0] as any} />
-                    </div>
-                  )}
-
-                  {/* 其余教授使用居中的网格 */}
-                  {section.data.length > 1 && (
-                    <div
-                      className="grid gap-4 sm:gap-6 justify-items-center mt-6 sm:mt-10 pt-2 sm:pt-4"
-                      style={{
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 370px))',
-                        justifyContent: 'center',
-                      }}
-                    >
-                      {section.data.slice(1).map((person: any, idx: number) => (
-                        <PersonCard key={idx} person={person as any} />
-                      ))}
-                    </div>
-                  )}
-                </>
-              ) : (
-                <div
-                  className="grid gap-4 sm:gap-6 justify-items-center mt-6 sm:mt-10 pt-2 sm:pt-4"
-                  style={{
-                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 370px))',
-                    justifyContent: 'center',
-                  }}
-                >
-                  {section.data.map((person: any, index: number) => (
-                    <PersonCard key={index} person={person as any} />
-                  ))}
-                </div>
-              )}
+              <div 
+                className="grid gap-4 sm:gap-6 justify-items-center mt-6 sm:mt-10 pt-2 sm:pt-4"
+                style={{
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 370px))',
+                  justifyContent: 'center',
+                }}
+              >
+                {section.data.map((person: any, index: number) => (
+                  <PersonCard key={index} person={person} />
+                ))}
+              </div>
             </div>
           )
         ))}
