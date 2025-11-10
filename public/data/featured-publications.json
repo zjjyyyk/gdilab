@@ -4,49 +4,49 @@
     "title": "GraphMaster: Automated Graph Synthesis via LLM Agents in Data-Limited Environments",
     "venue": "NeurIPS 2025 (Spotlight)",
     "year": 2025,
-    "image": "/images/publications/pub1.jpg",
+    "image": "/images/publications/NIPS25_Du.jpg",
     "pdf": "https://ronghuali.github.io/PaperFiles/GraphMaster Automated Graph Synthesis via LLM Agents in Data-Limited Environments.pdf",
     "code": null,
     "class": "GLLLM"
   },
   {
-    "authors": "Bowen Fan, Yuming Ai, Xunkai Li, Zhilin Guo, Zhu Lei, Guang Zeng, Rong-Hua Li*, Guoren Wang",
-    "title": "OpenGU: A Comprehensive Benchmark for Graph Unlearning",
-    "venue": "NeurIPS 2025",
+    "authors": "Meihao Liao, Cheng Li, Rong-Hua Li*, Guoren Wang",
+    "title": "Efficient Index Maintenance for Effective Resistance Computation on Evolving Graphs",
+    "venue": "SIGMOD 2025",
     "year": 2025,
-    "image": "/images/publications/pub2.jpg",
-    "pdf": "https://ronghuali.github.io/PaperFiles/OpenGU  A Comprehensive Benchmark for Graph Unlearning.pdf",
-    "code": "https://github.com/bwfan-bit/OpenGU",
-    "class": "GLLLM"
+    "image": "/images/publications/SIGMOD25_Liao.jpg",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Index Maintenance for Effective Resistance Computation on Evolving Graphs.pdf",
+    "code": "https://github.com/mhliao0516/LEindex",
+    "class": "AGA"
   },
   {
-    "authors": "Xunkai Li, Zhengyu Wu, Kaichi Yu, Hongchao Qin, Guang Zeng, Rong-Hua Li*, Guoren Wang",
-    "title": "Toward Data-centric Directed Graph Learning: An Entropy-driven Approach",
-    "venue": "ICML 2025",
+    "authors": "Yalong Zhang, Rong-Hua Li*, Qi Zhang, Hongchao Qin, Lu Qin, Guoren Wang",
+    "title": "Density Decomposition of Bipartite Graphs",
+    "venue": "SIGMOD 2025",
     "year": 2025,
-    "image": "/images/publications/pub3.jpg",
-    "pdf": "https://ronghuali.github.io/PaperFiles/Toward Data-centric Directed Graph Learning An Entropy-driven Approach.pdf",
-    "code": null,
-    "class": "GLLLM"
+    "image": "/images/publications/SIGMOD25_Zhang.jpg",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Density Decomposition of Bipartite Graphs.pdf",
+    "code": "https://github.com/Flydragonet/ab-dense-subgraph",
+    "class": "CGA"
   },
   {
     "authors": "Yichun Yang, Rong-Hua Li*, Meihao Liao, Guoren Wang",
     "title": "Improved Algorithms for Effective Resistance Computation on Graphs",
     "venue": "COLT 2025",
     "year": 2025,
-    "image": "/images/publications/pub4.jpg",
+    "image": "/images/publications/COLT25_Yang.jpg",
     "pdf": "https://ronghuali.github.io/PaperFiles/Improved Algorithms for Effective Resistance Computation on Graphs.pdf",
     "code": null,
     "class": "AGA"
   },
   {
-    "authors": "Lantian Xu, Rong-Hua Li*, Dong Wen, Qiangqiang Dai, Guoren Wang",
-    "title": "Efficient Antagonistic k-plex Enumeration in Signed Graphs",
-    "venue": "IEEE Transactions on Big Data",
+    "authors": "Qiangqiang Dai, Rong-Hua Li*, Donghang Cui, Guoren Wang",
+    "title": "Theoretically and Practically Efficient Maximum Defective Clique Search",
+    "venue": "SIGMOD 2025",
     "year": 2025,
-    "image": "/images/publications/pub5.jpg",
-    "pdf": "https://ronghuali.github.io/PaperFiles/Efficient Antagonistic k-plex Enumeration in Signed Graphs.pdf",
-    "code": null,
+    "image": "/images/publications/SIGMOD25_Dai.jpg",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Theoretically and Practically Efficient Maximum Defective Clique Search.pdf",
+    "code": "https://github.com/dawhc/MaximumDefectiveClique",
     "class": "CGA"
   }
 ]
