@@ -3,26 +3,23 @@
     {
       "name": "李荣华教授",
       "photo": "/images/people/lironghua.jpg",
-      "research": "图数据智能",
-      "email": "lironghuabit@126.com"
+      "research": "图数据智能、图算法、谱图理论、图学习于大模型、AI4Science等",
+      "email": "lironghuabit@126.com",
+      "homepage": "https://ronghuali.github.io/"
     },
     {
         "name": "秦宏超教授",
         "photo": "/images/people/秦宏超.jpg",
         "research": "社区挖掘、新型图挖掘、知识图谱等",
-        "email": "hcqin@bit.edu.cn"
-    },
-    {
-        "name": "张琦教授",
-        "photo": "/images/people/张琦.jpg",
-        "research": "图数据管理，稠密子图搜索，图算法",
-        "email": "qizhangcs@ustb.edu.cn"
+        "email": "hcqin@bit.edu.cn",
+        "homepage": "https://qinhc.github.io/"
     },
     {
         "name": "代强强教授",
         "photo": "/images/people/代强强.jpg",
         "research": "图数据管理与挖掘，社交网络分析，图计算",
-        "email": "qiangd66@gmail.com"
+        "email": "qiangd66@gmail.com",
+        "homepage": "https://qq-dai.github.io/"
     }
   ],
   "phds": [
@@ -30,7 +27,8 @@
         "name": "廖美昊",
         "photo": "/images/people/廖美昊.jpg",
         "research": "谱图理论，图矩阵计算",
-        "email": "mhliao@bit.edu.cn"
+        "email": "mhliao@bit.edu.cn",
+        "homepage": "https://mhliao516.github.io/"
     },
     {
         "name": "李泽宁",
@@ -42,7 +40,8 @@
         "name": "李洵楷",
         "photo": "/images/people/李洵楷.jpg",
         "research": "以数据为中心的图智能、多模态与大模型、AI4Science",
-        "email": "cs.xunkai.li@gmail.com"
+        "email": "cs.xunkai.li@gmail.com",
+        "homepage": "https://xkli-allen.github.io/"
     },
     {
         "name": "邬征宇",
@@ -71,7 +70,7 @@
     {
         "name": "周俊杰",
         "photo": "/images/people/周俊杰.jpg",
-        "research": "谱图 pagerank",
+        "research": "谱图理论、PageRank计算",
         "email": "791549989@qq.com"
     },
     {
@@ -101,7 +100,7 @@
     {
         "name": "杨一春",
         "photo": "/images/people/杨一春.jpg",
-        "research": "谱图算法",
+        "research": "谱图理论",
         "email": "yc.yang@bit.edu.cn"
     },
     {
@@ -118,6 +117,12 @@
     }
   ],
   "masters": [
+    {
+        "name": "王鹏",
+        "photo": "/images/people/王鹏.jpg",
+        "research": "图算法",
+        "email": "ponewang@qq.com"
+    },
     {
         "name": "张子豪",
         "photo": "/images/people/张子豪.jpg",
@@ -181,8 +186,14 @@
     {
         "name": "陈泽楷",
         "photo": "/images/people/陈泽楷.jpg",
-        "research": "GNN",
+        "research": "GNN, AI4Science",
         "email": "zackchen02@163.com"
+    },
+    {
+        "name": "封璟", 
+        "photo": "/images/people/封璟.jpg",
+        "research": "向量检索",
+        "email": "1330827323@qq.com"
     },
     {
         "name": "李思涵",
@@ -249,6 +260,12 @@
         "photo": "/images/people/曹阳.jpg",
         "research": "多模态图学习",
         "email": "1634973128@qq.com"
+    },
+    {
+        "name": "韩俊一",
+        "photo": "/images/people/韩俊一.jpg",
+        "research": "AI4SCI",
+        "email": "hanjy_cs@163.com"
     }
   ],
   "undergrads": [
@@ -265,19 +282,44 @@
         "email": "1120223306@bit.edu.cn"
     },
     {
-        "name": "韩俊一",
-        "photo": "/images/people/韩俊一.jpg",
-        "research": "AI4SCI",
-        "email": "hanjy_cs@163.com"
-    },
-    {
         "name": "金昕墨",
         "photo": "/images/people/金昕墨.jpg",
         "research": "Graph ML, Ai4science",
         "email": "1120223541@bit.edu.cn"
+    },
+    {
+        "name": "万晨玺", 
+        "photo": "/images/people/万晨玺.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "张儒", 
+        "photo": "/images/people/张儒.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "代玉泽", 
+        "photo": "/images/people/代玉泽.jpg",
+        "research": null,
+        "email": null
+    },
+    {
+        "name": "刘思呈", 
+        "photo": "/images/people/刘思呈.jpg",
+        "research": null,
+        "email": null
     }
   ],
   "alumni": [
+    {
+        "name": "张琦",
+        "photo": "/images/people/张琦.jpg",
+        "research": "图数据管理，稠密子图搜索，图算法",
+        "email": "qizhangcs@ustb.edu.cn",
+        "homepage": "https://qizhang1996.github.io/"
+    },
     {
         "name": "孙赫男",
         "photo": "/images/people/孙赫男.jpg",
@@ -451,6 +493,18 @@
         "photo": "/images/people/卢茜君.jpg",
         "research": "图神经网络",
         "email": "luxijun@outlook.com"
+    },
+    {
+        "name": "乔梓峰",
+        "photo": "/images/people/乔梓峰.jpg",
+        "research": "图神经网络，图表示学习",
+        "email": "2929196936@qq.com"
+    },
+    {
+        "name": "王彪",
+        "photo": "/images/people/王彪.jpg",
+        "research": "图数据",
+        "email": "799089663@qq.com"
     }
   ]
 }

@@ -6,11 +6,12 @@ interface Person {
   research: string
   email?: string | null
   destination?: string | null
+  homepage?: string | null
 }
 
-export default function PersonCard({ person }: { person: Person }) {
+export default function PersonCard({ person, fullWidth = false }: { person: Person, fullWidth?: boolean }) {
   return (
-    <div className="flex flex-col items-center text-center p-3 sm:p-4 w-full max-w-[370px]">
+    <div className={`flex flex-col items-center text-center p-3 sm:p-4 w-full ${fullWidth ? '' : 'max-w-[370px]'}`}>
       {/* 圆形头像 - 响应式尺寸 */}
       <div className="rounded-full overflow-hidden mb-3 bg-gray-200 w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52">
         <img
@@ -41,12 +42,27 @@ export default function PersonCard({ person }: { person: Person }) {
     
       {/* 邮箱 */}
       {person.email && (
-        <a 
+        <a
           href={`mailto:${person.email}`}
           className="text-xs sm:text-sm text-blue-600 hover:underline break-all"
         >
           {person.email}
         </a>
+      )}
+
+      {/* 个人主页（可选） */}
+      {person.homepage && (
+        <p className="text-xs sm:text-sm text-gray-600 mt-1">
+          <span className="font-semibold">个人主页: </span>
+          <a
+            href={person.homepage}
+            className="text-blue-600 hover:underline break-all"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {person.homepage}
+          </a>
+        </p>
       )}
     </div>
   )
