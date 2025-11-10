@@ -584,12 +584,6 @@
         "email": null
     },
     {
-        "name": "康驻关",
-        "photo": "/images/people/null.jpg",
-        "research": null,
-        "email": null
-    },
-    {
         "name": "刘瑞奇",
         "photo": "/images/people/null.jpg",
         "research": null,
@@ -603,9 +597,10 @@
     },
     {
         "name": "鲁多",
-        "photo": "/images/people/null.jpg",
-        "research": null,
-        "email": null
+        "photo": "/images/people/鲁多.jpg",
+        "research": "图神经网络",
+        "email": "lu.d.0@foxmail.com",
+        "destination": "国企"
     },
     {
         "name": "吴可心",
@@ -615,12 +610,6 @@
     },
     {
         "name": "郑艺",
-        "photo": "/images/people/null.jpg",
-        "research": null,
-        "email": null
-    },
-    {
-        "name": "陈久健",
         "photo": "/images/people/null.jpg",
         "research": null,
         "email": null
