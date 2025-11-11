@@ -26,11 +26,7 @@ export default function ContactUs() {
             <section>
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">About Our Lab</h2>
               <p className="text-justify">
-                The Graph Data Intelligence Lab is a leading research group dedicated to advancing the frontiers of 
-                artificial intelligence, machine learning, and data science. Our research focuses on developing 
-                innovative algorithms and systems for graph neural networks, knowledge representation, and 
-                intelligent data analysis. With state-of-the-art facilities and a collaborative environment, 
-                we strive to make significant contributions to both academic research and real-world applications.
+                The Graph Data Intelligence Lab is a premier research group at the forefront of graph data science. We are dedicated to pioneering advanced algorithms and systems in areas such as graph machine learning, knowledge graphs, LLM-Graph integration (LLM4Graph/Graph4LLM), vector retrieval, RAG, LLM Agent, spectral graph theory, and AI for Science (AI4Science). By leveraging state-of-the-art facilities and fostering a collaborative culture, we aim to push the boundaries of academic knowledge and create impactful real-world solutions.
               </p>
             </section>
 
@@ -38,14 +34,22 @@ export default function ContactUs() {
             <section>
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">Get in Touch</h2>
               <p className="mb-2">
-                <strong>Email:</strong> contact@gdil.edu.cn
+                We welcome your inquiries and collaboration proposals.
+                </p>
+                <p className="mb-2">
+                <strong>Email:</strong> lironghuabit@126.com
               </p>
               <p className="mb-2">
-                <strong>Address:</strong> Room 408, Computer Science Building, University Campus
+                <strong>Address:</strong> Room 1233, Central Teaching Building, Beijing Institute of Technology (Zhongguancun Campus)
               </p>
-              <p className="mb-3">
-                <strong>Follow us on social media:</strong>
-              </p>
+              
+              </section>
+              {/* 联系方式 */}
+            <section>
+                <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">Follow Us</h2>
+                <p className="mb-2">
+                  Stay updated with our latest research and news.
+                  </p>
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 ml-2 sm:ml-4">
                 <a 
                   href={siteConfig.social.xiaohongshu}
@@ -65,7 +69,7 @@ export default function ContactUs() {
                 </a>
               </div>
               <p className="mb-3 mt-4">
-                <strong>WeChat Official Account (微信公众号):</strong>
+                WeChat Official Account (微信公众号):
               </p>
               <div className="ml-2 sm:ml-4">
                 <button
@@ -75,38 +79,35 @@ export default function ContactUs() {
                   💬 点击查看微信公众号二维码
                 </button>
               </div>
-            </section>
-
+              </section>
+              
             {/* 招生信息 */}
             <section>
               <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-2 sm:mb-3">Join Our Team</h2>
               <p className="mb-3 text-justify">
-                We are always looking for talented and motivated students to join our research group! 
-                If you are passionate about artificial intelligence, machine learning, or data science, 
-                and eager to work on cutting-edge research projects, we encourage you to apply.
+                We are continuously seeking highly motivated and talented students to join our dynamic research team. If you are passionate about graph algorithms, graph machine learning, LLM-Graph integration, LLM Agent, RAG, spectral graph theory, and are eager to tackle cutting-edge research challenges, we strongly encourage you to reach out.
               </p>
               <p className="mb-3">
                 <strong>We are currently recruiting:</strong>
               </p>
               <ul className="list-disc ml-6 sm:ml-8 space-y-1 sm:space-y-2 mb-3">
-                <li>Ph.D. students (Fall 2025 & Spring 2026)</li>
-                <li>Master's students (Fall 2025)</li>
-                <li>Undergraduate research assistants</li>
-                <li>Visiting scholars and postdoctoral researchers</li>
+                <li>Ph.D. Students (Commencing Fall 2027)</li>
+                <li>Master's Students (Commencing Fall 2026)</li>
+                <li>Undergraduate Research Assistants</li>
+                <li>Visiting Scholars and Postdoctoral Researchers</li>
               </ul>
               <p className="mb-3">
                 <strong>What we offer:</strong>
               </p>
               <ul className="list-disc ml-6 sm:ml-8 space-y-1 sm:space-y-2 mb-3">
                 <li>Competitive scholarships and stipends</li>
-                <li>Access to high-performance computing resources</li>
+                <li>Access to high-performance computing clusters</li>
                 <li>Opportunities to publish in top-tier conferences and journals</li>
-                <li>Collaboration with leading researchers worldwide</li>
-                <li>Supportive and inclusive research environment</li>
+                <li>Collaboration with leading international researchers</li>
+                <li>A supportive, inclusive, and intellectually stimulating environment</li>
               </ul>
               <p className="text-justify">
-                Interested candidates are welcome to send their CV, transcripts, and a brief statement of 
-                research interests to <strong>contact@gdil.edu.cn</strong>. We look forward to hearing from you!
+                Interested candidates are invited to submit their CV, academic transcripts, and a statement of research interests to <strong>lironghuabit@126.com</strong>. We look forward to hearing from you!
               </p>
             </section>
           </div>

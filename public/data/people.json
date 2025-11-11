@@ -334,6 +334,12 @@
         "photo": "/images/people/null.jpg",
         "research": "大模型、Agent",
         "email": null
+    },
+    {
+        "name": "杜恩俊",
+        "photo": "/images/people/null.jpg",
+        "research": "大模型、Agent",
+        "email": null
     }
   ],
   "alumni": [
@@ -346,14 +352,6 @@
         "destination" : "北京理工大学 助理教授"
     },
     {
-        "name": "代强强",
-        "photo": "/images/people/代强强.jpg",
-        "research": "图数据管理与挖掘，社交网络分析，图计算",
-        "email": "qiangd66@gmail.com",
-        "homepage": "https://qq-dai.github.io/",
-        "destination" : "北京理工大学 副教授"
-    },
-    {
         "name": "张琦",
         "photo": "/images/people/张琦.jpg",
         "research": "图数据管理，稠密子图搜索，图算法",
@@ -362,25 +360,19 @@
         "destination" : "北京科技大学 副教授"
     },
     {
-        "name": "孙赫男",
-        "photo": "/images/people/孙赫男.jpg",
-        "research": "图神经网络",
-        "email": "magneto0617@foxmail.com",
-        "destination" : "香港科技大学（广州） 博士"
+        "name": "代强强",
+        "photo": "/images/people/代强强.jpg",
+        "research": "图数据管理与挖掘，社交网络分析，图计算",
+        "email": "qiangd66@gmail.com",
+        "homepage": "https://qq-dai.github.io/",
+        "destination" : "北京理工大学 副教授"
     },
     {
-        "name": "马泽航",
-        "photo": "/images/people/马泽航.jpg",
+        "name": "康驻关",
+        "photo": "/images/people/康驻关.jpg",
         "research": null,
-        "email": "mzh_1999@yeah.net",
-        "destination" : "北京宇航系统工程研究所"
-    },
-    {
-        "name": "高森",
-        "photo": "/images/people/高森.jpg",
-        "research": "数据库系统，图系统，并行与分布式计算",
-        "email": "Gawssin@gmail.com",
-        "destination" : "新加坡国立大学 博士"
+        "email": "kzg8267@163.com",
+        "destination" : "中国农业银行总行本部"
     },
     {
         "name": "任泽槟",
@@ -390,11 +382,11 @@
         "destination" : "VU Amsterdam"
     },
     {
-        "name": "尹梓琦",
-        "photo": "/images/people/尹梓琦.jpg",
-        "research": "图算法",
-        "email": "ziqi003@e.ntu.edu.sg",
-        "destination" : "NTU 博士"
+        "name": "高森",
+        "photo": "/images/people/高森.jpg",
+        "research": "数据库系统，图系统，并行与分布式计算",
+        "email": "Gawssin@gmail.com",
+        "destination" : "新加坡国立大学 博士"
     },
     {
         "name": "李挺",
@@ -411,13 +403,6 @@
         "destination" : "悉尼科技大学 博士"
     },
     {
-        "name": "康驻关",
-        "photo": "/images/people/康驻关.jpg",
-        "research": null,
-        "email": "kzg8267@163.com",
-        "destination" : "中国农业银行总行本部"
-    },
-    {
         "name": "潘敏佳",
         "photo": "/images/people/潘敏佳.jpg",
         "research": null,
@@ -425,25 +410,18 @@
         "destination" : "宁波市鄞州区营商环境建设办公室"
     },
     {
-        "name": "胡旭阳",
-        "photo": "/images/people/胡旭阳.jpg",
-        "research": "知识图谱 图学习",
-        "email": "huxy912@163.com",
-        "destination" : "上海人工智能实验室"
+        "name": "王彪",
+        "photo": "/images/people/王彪.jpg",
+        "research": "图数据",
+        "email": "799089663@qq.com",
+        "destination" : "拼多多"
     },
     {
-        "name": "胡仲则",
-        "photo": "/images/people/胡仲则.jpg",
-        "research": "图数据管理与挖掘",
-        "email": "dkisno1@sina.com",
-        "destination" : "xxx部队"
-    },
-    {
-        "name": "张亚龙",
-        "photo": "/images/people/张亚龙.jpg",
-        "research": "稠密子图",
-        "email": "yalong-zhang@qq.com",
-        "destination" : "新南威尔士大学"
+        "name": "尹梓琦",
+        "photo": "/images/people/尹梓琦.jpg",
+        "research": "图算法",
+        "email": "ziqi003@e.ntu.edu.sg",
+        "destination" : "NTU 博士"
     },
     {
         "name": "陈子健",
@@ -488,6 +466,62 @@
         "destination" : "阿里巴巴"
     },
     {
+        "name": "卢茜君",
+        "photo": "/images/people/卢茜君.jpg",
+        "research": "图神经网络",
+        "email": "luxijun@outlook.com",
+        "destination" : "中国人寿"
+    },
+    {
+        "name": "乔梓峰",
+        "photo": "/images/people/乔梓峰.jpg",
+        "research": "图神经网络，图表示学习",
+        "email": "2929196936@qq.com",
+        "destination" : "中国联通"
+    },
+    {
+        "name": "鲁多",
+        "photo": "/images/people/鲁多.jpg",
+        "research": "图神经网络",
+        "email": "lu.d.0@foxmail.com",
+        "destination": "中国农业银行"
+    },
+    {
+        "name": "马泽航",
+        "photo": "/images/people/马泽航.jpg",
+        "research": null,
+        "email": "mzh_1999@yeah.net",
+        "destination" : "北京宇航系统工程研究所"
+    },
+    {
+        "name": "胡旭阳",
+        "photo": "/images/people/胡旭阳.jpg",
+        "research": "知识图谱 图学习",
+        "email": "huxy912@163.com",
+        "destination" : "上海人工智能实验室"
+    },
+    {
+        "name": "胡仲则",
+        "photo": "/images/people/胡仲则.jpg",
+        "research": "图数据管理与挖掘",
+        "email": "dkisno1@sina.com",
+        "destination" : "xxx部队"
+    },
+    {
+        "name": "侯景乐",
+        "photo": "/images/people/侯景乐.jpg",
+        "research": "云计算，图算法",
+        "email": "1779870177@qq.com",
+        "destination" : "工商银行陕西省分行本部"
+    },
+    {
+        "name": "孙赫男",
+        "photo": "/images/people/孙赫男.jpg",
+        "research": "图神经网络",
+        "email": "magneto0617@foxmail.com",
+        "destination" : "香港科技大学（广州） 博士"
+    },
+    {
         "name": "郑天欣",
         "photo": "/images/people/郑天欣.jpg",
         "research": null,
@@ -502,25 +536,11 @@
         "destination" : "北京沃东天骏信息技术有限公司"
     },
     {
-        "name": "于瀚文",
-        "photo": "/images/people/于瀚文.jpg",
-        "research": "图论 稠密子图挖掘",
-        "email": "806645943@qq.com",
-        "destination" : "北京华钧广汇投资管理有限公司"
-    },
-    {
-        "name": "杨世宇",
-        "photo": "/images/people/杨世宇.jpg",
-        "research": "图神经网络",
-        "email": "1017253916@qq.com",
-        "destination" : "快手"
-    },
-    {
-        "name": "侯景乐",
-        "photo": "/images/people/侯景乐.jpg",
-        "research": "云计算，图算法",
-        "email": "1779870177@qq.com",
-        "destination" : "工商银行陕西省分行本部"
+        "name": "孟雨辰",
+        "photo": "/images/people/孟雨辰.jpg",
+        "research": null,
+        "email": "meng_yc@163.com",
+        "destination" : "百度"
     },
     {
         "name": "付俊华",
@@ -537,6 +557,20 @@
         "destination" : "xxx部队"
     },
     {
+        "name": "于瀚文",
+        "photo": "/images/people/于瀚文.jpg",
+        "research": "图论 稠密子图挖掘",
+        "email": "806645943@qq.com",
+        "destination" : "北京华钧广汇投资管理有限公司"
+    },
+    {
+        "name": "杨世宇",
+        "photo": "/images/people/杨世宇.jpg",
+        "research": "图神经网络",
+        "email": "1017253916@qq.com",
+        "destination" : "快手"
+    },
+    {
         "name": "左丰源",
         "photo": "/images/people/左丰源.jpg",
         "research": null,
@@ -544,32 +578,11 @@
         "destination" : "国家开发银行"
     },
     {
-        "name": "孟雨辰",
-        "photo": "/images/people/孟雨辰.jpg",
-        "research": null,
-        "email": "meng_yc@163.com",
-        "destination" : "百度"
-    },
-    {
-        "name": "卢茜君",
-        "photo": "/images/people/卢茜君.jpg",
-        "research": "图神经网络",
-        "email": "luxijun@outlook.com",
-        "destination" : "中国人寿"
-    },
-    {
-        "name": "乔梓峰",
-        "photo": "/images/people/乔梓峰.jpg",
-        "research": "图神经网络，图表示学习",
-        "email": "2929196936@qq.com",
-        "destination" : "中国联通"
-    },
-    {
-        "name": "王彪",
-        "photo": "/images/people/王彪.jpg",
-        "research": "图数据",
-        "email": "799089663@qq.com",
-        "destination" : "拼多多"
+        "name": "张亚龙",
+        "photo": "/images/people/张亚龙.jpg",
+        "research": "稠密子图",
+        "email": "yalong-zhang@qq.com",
+        "destination" : "新南威尔士大学 博士"
     },
     {
         "name": "程苗苗",
@@ -599,13 +612,6 @@
         "destination" : "腾讯"
     },
     {
-        "name": "鲁多",
-        "photo": "/images/people/鲁多.jpg",
-        "research": "图神经网络",
-        "email": "lu.d.0@foxmail.com",
-        "destination": "中国农业银行"
-    },
-    {
         "name": "吴可心",
         "photo": "/images/people/null.jpg",
         "research": null,
@@ -617,6 +623,20 @@
         "research": null,
         "email": null,
         "destination" : "中国人寿"
+    },
+    {
+        "name": "Nana",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null,
+        "destination" : null
+    },
+    {
+        "name": "Wilson",
+        "photo": "/images/people/null.jpg",
+        "research": null,
+        "email": null,
+        "destination" : null
     }
   ]
 }

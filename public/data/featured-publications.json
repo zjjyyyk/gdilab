@@ -24,20 +24,20 @@
     "title": "Density Decomposition of Bipartite Graphs",
     "venue": "SIGMOD 2025",
     "year": 2025,
-    "image": "/images/publications/SIGMOD25_Zhang.jpg",
+    "image": "/images/publications/SIGMOD25_Zhang_Density.jpg",
     "pdf": "https://ronghuali.github.io/PaperFiles/Density Decomposition of Bipartite Graphs.pdf",
     "code": "https://github.com/Flydragonet/ab-dense-subgraph",
     "class": "CGA"
   },
   {
-    "authors": "Yichun Yang, Rong-Hua Li*, Meihao Liao, Guoren Wang",
-    "title": "Improved Algorithms for Effective Resistance Computation on Graphs",
-    "venue": "COLT 2025",
+    "authors": "Yalong Zhang, Rong-Hua Li*, Longlong Lin, Qi Zhang, Lu Qin, Guoren Wang",
+    "title": "Integral Densest Subgraph Search on Directed Graphs",
+    "venue": "SIGMOD 2025",
     "year": 2025,
-    "image": "/images/publications/COLT25_Yang.jpg",
-    "pdf": "https://ronghuali.github.io/PaperFiles/Improved Algorithms for Effective Resistance Computation on Graphs.pdf",
-    "code": null,
-    "class": "AGA"
+    "image": "/images/publications/SIGMOD25_Zhang.jpg",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Integral Densest Subgraph Search on Directed Graphs.pdf",
+    "code": "https://github.com/Yalong-Zhang/maxab",
+    "class": "CGA"
   },
   {
     "authors": "Qiangqiang Dai, Rong-Hua Li*, Donghang Cui, Guoren Wang",
