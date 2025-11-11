@@ -3,14 +3,14 @@
     {
       "name": "李荣华教授",
       "photo": "/images/people/lironghua.jpg",
-      "research": "图数据智能、图算法、谱图理论、图学习与大模型、AI4Science等",
+      "research": "图数据智能、图算法、谱图理论、向量检索、图学习与大模型、AI4Science等",
       "email": "lironghuabit@126.com",
       "homepage": "https://ronghuali.github.io/"
     },
     {
         "name": "秦宏超助理教授",
         "photo": "/images/people/秦宏超.jpg",
-        "research": "社区挖掘、新型图挖掘、知识图谱等",
+        "research": "社区挖掘、新型图挖掘、知识图谱、向量检索等",
         "email": "hcqin@bit.edu.cn",
         "homepage": "https://qinhc.github.io/"
     },
@@ -120,7 +120,7 @@
     {
         "name": "王鹏",
         "photo": "/images/people/王鹏.jpg",
-        "research": "图算法",
+        "research": "图挖掘算法",
         "email": "ponewang@qq.com"
     },
     {
@@ -132,13 +132,13 @@
     {
         "name": "戴宙辰",
         "photo": "/images/people/戴宙辰.jpg",
-        "research": "图学习",
+        "research": "图学习、知识图谱",
         "email": "2370775795@qq.com"
     },
     {
         "name": "苏道涵",
         "photo": "/images/people/苏道涵.jpg",
-        "research": "图神经网络",
+        "research": "图神经网络、图基础模型",
         "email": "dhsu@bit.edu.cn"
     },
     {
@@ -168,31 +168,31 @@
     {
         "name": "李坚辉",
         "photo": "/images/people/李坚辉.jpg",
-        "research": "大模型agent、rag、系统",
+        "research": "大模型Agent、RAG、数据库系统",
         "email": "durantlee1006@outlook.com"
     },
     {
         "name": "张智涵",
         "photo": "/images/people/张智涵.jpg",
-        "research": "大语言模型与图数据质量控制",
+        "research": "大模型与图数据质量控制",
         "email": "1877822704@qq.com"
     },
     {
         "name": "文彦哲",
         "photo": "/images/people/文彦哲.jpg",
-        "research": "开放世界图学习，大模型",
+        "research": "开放世界图学习、大模型",
         "email": "yzwenbit@163.com"
     },
     {
         "name": "范博文",
         "photo": "/images/people/范博文.jpg",
-        "research": "图神经网络，图遗忘学习，图攻击，大语言模型",
+        "research": "图神经网络、图遗忘学习、图攻击、大模型",
         "email": "3220241345@bit.edu.cn"
     },
     {
         "name": "陈泽楷",
         "photo": "/images/people/陈泽楷.jpg",
-        "research": "GNN, AI4Science",
+        "research": "图神经网络、AI4Science",
         "email": "zackchen02@163.com"
     },
     {
@@ -216,7 +216,7 @@
     {
         "name": "喻恺驰",
         "photo": "/images/people/喻恺驰.jpg",
-        "research": "因果图+大模型/Agent",
+        "research": "因果图、大模型Agent",
         "email": "kcyu.cs@gmail.com"
     },
     {
@@ -228,7 +228,7 @@
     {
         "name": "黎书萌",
         "photo": "/images/people/黎书萌.jpg",
-        "research": "AI4S AI4Protein",
+        "research": "AI4Science、AI4Protein",
         "email": "lishumeng1017@163.com"
     },
     {
@@ -252,13 +252,13 @@
     {
         "name": "郑俊烽",
         "photo": "/images/people/郑俊烽.jpg",
-        "research": "大模型应用，RAG",
+        "research": "大模型应用、RAG",
         "email": "xiaozheng2003@vip.qq.com"
     },
     {
         "name": "张司睿",
         "photo": "/images/people/张司睿.jpg",
-        "research": "Ai4Science",
+        "research": "AI4Science",
         "email": "joseph.sr.zhang@gmail.com"
     },
     {
@@ -290,49 +290,49 @@
     {
         "name": "金昕墨",
         "photo": "/images/people/金昕墨.jpg",
-        "research": "Graph ML, Ai4science",
+        "research": "图学习、AI4Science",
         "email": "1120223541@bit.edu.cn"
     },
     {
         "name": "万晨玺", 
         "photo": "/images/people/万晨玺.jpg",
-        "research": null,
+        "research": "多模态图学习",
         "email": null
     },
     {
         "name": "张儒", 
         "photo": "/images/people/张儒.jpg",
-        "research": null,
+        "research": "AI4Science",
         "email": null
     },
     {
         "name": "代玉泽", 
         "photo": "/images/people/代玉泽.jpg",
-        "research": null,
+        "research": "多模态图学习",
         "email": null
     },
     {
         "name": "刘思呈", 
         "photo": "/images/people/刘思呈.jpg",
-        "research": null,
+        "research": "图基础模型",
         "email": null
     },
     {
         "name": "邓雅馨",
         "photo": "/images/people/null.jpg",
-        "research": null,
+        "research": "图学习、向量检索",
         "email": null
     },
     {
         "name": "梁思源",
         "photo": "/images/people/null.jpg",
-        "research": null,
+        "research": "向量检索",
         "email": null
     },
     {
         "name": "全威",
         "photo": "/images/people/null.jpg",
-        "research": null,
+        "research": "大模型、Agent",
         "email": null
     }
   ],
@@ -340,7 +340,7 @@
     {
         "name": "秦宏超",
         "photo": "/images/people/秦宏超.jpg",
-        "research": "社区挖掘、新型图挖掘、知识图谱等",
+        "research": "社区挖掘、新型图挖掘、知识图谱、向量检索等",
         "email": "hcqin@bit.edu.cn",
         "homepage": "https://qinhc.github.io/",
         "destination" : "北京理工大学 助理教授"
@@ -436,7 +436,7 @@
         "photo": "/images/people/胡仲则.jpg",
         "research": "图数据管理与挖掘",
         "email": "dkisno1@sina.com",
-        "destination" : "科研院所"
+        "destination" : "xxx部队"
     },
     {
         "name": "张亚龙",
@@ -527,14 +527,14 @@
         "photo": "/images/people/付俊华.jpg",
         "research": "知识图谱",
         "email": "775242987@qq.com",
-        "destination" : "部队"
+        "destination" : "xxx部队"
     },
     {
         "name": "马渊沐",
         "photo": "/images/people/马渊沐.jpg",
         "research": "图神经网络",
         "email": "257856034@qq.com",
-        "destination" : "部队"
+        "destination" : "xxx部队"
     },
     {
         "name": "左丰源",
@@ -575,13 +575,15 @@
         "name": "程苗苗",
         "photo": "/images/people/null.jpg",
         "research": null,
-        "email": null
+        "email": null,
+        "destination" : "字节跳动"
     },
     {
         "name": "崔冬梅",
         "photo": "/images/people/null.jpg",
         "research": null,
-        "email": null
+        "email": null,
+        "destination" : "国家电网"
     },
     {
         "name": "刘瑞奇",
@@ -593,14 +595,15 @@
         "name": "易晗",
         "photo": "/images/people/null.jpg",
         "research": null,
-        "email": null
+        "email": null,
+        "destination" : "腾讯"
     },
     {
         "name": "鲁多",
         "photo": "/images/people/鲁多.jpg",
         "research": "图神经网络",
         "email": "lu.d.0@foxmail.com",
-        "destination": "国企"
+        "destination": "中国农业银行"
     },
     {
         "name": "吴可心",
@@ -612,7 +615,8 @@
         "name": "郑艺",
         "photo": "/images/people/null.jpg",
         "research": null,
-        "email": null
+        "email": null,
+        "destination" : "中国人寿"
     }
   ]
 }
