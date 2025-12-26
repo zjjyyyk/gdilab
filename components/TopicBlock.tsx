@@ -25,7 +25,9 @@ export default function TopicBlock({ topic }: { topic: Topic }) {
     <div className="py-6 sm:py-8">
       {/* 主题标题 - 带双下划线装饰 */}
       <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 relative inline-block">
-        <span className="break-words">{topic.name}</span>
+        <Link href={`/publications?class=${topic.abbr}`} className="break-words text-black hover:text-blue-600 transition-colors">
+          {topic.name}
+        </Link>
         {topic.abbr && (
           <Link href={`/publications?class=${topic.abbr}`} className="ml-2 sm:ml-3 inline-block align-middle">
             <span 
