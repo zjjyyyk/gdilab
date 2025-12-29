@@ -1,6 +1,24 @@
 [
   {
     "year": 2026,
+    "authors": "Xiang Wu, Rong-Hua Li*, Zhaoxin Fan, Kai Chen, Yujin Gao, Hongchao Qin, Guoren Wang",
+    "title": "GRPCI: Harnessing Temporal-Spatial Dynamics for Graph Representation Learning. IEEE Transactions on Knowledge and Data Engineering",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "TGA"
+  },
+  {
+    "year":2026,
+    "authors": "Xiang Wu, Xunkai Li, Rong-Hua Li, Kangfei Zhao, Guoren Wang",
+    "title": "ScaDyG: A New Paradigm for Large-scale Dynamic Graph Learning",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "TGA"
+  },
+  {
+    "year": 2026,
     "authors": "Yuming Ai, Xunkai Li, Jiaqi Chao, Bowen Fan, Zhengyu Wu, Yinlin Zhu, Rong-Hua Li*, Guoren Wang",
     "title": "PAGE: A Unified Approach for Federated Graph Unlearning",
     "venue": "AAAI 2026 (Accepted)",
