@@ -1,27 +1,36 @@
 [
   {
     "year": 2026,
-    "authors": "Xiang Wu, Rong-Hua Li*, Zhaoxin Fan, Kai Chen, Yujin Gao, Hongchao Qin, Guoren Wang",
-    "title": "GRPCI: Harnessing Temporal-Spatial Dynamics for Graph Representation Learning",
-    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
-    "pdf": null,
-    "code": null,
-    "class": "TGA"
-  },
-  {
-    "year":2026,
     "authors": "Xiang Wu, Xunkai Li, Rong-Hua Li, Kangfei Zhao, Guoren Wang",
     "title": "ScaDyG: A New Paradigm for Large-scale Dynamic Graph Learning",
     "venue": "IEEE Transactions on Neural Networks and Learning Systems, 2026 (Accepted)",
     "pdf": null,
     "code": null,
-    "class": "TGA"
+    "class": "GLLLM"
   },
   {
     "year": 2026,
-    "authors": "Yuming Ai, Xunkai Li, Jiaqi Chao, Bowen Fan, Zhengyu Wu, Yinlin Zhu, Rong-Hua Li*, Guoren Wang",
-    "title": "PAGE: A Unified Approach for Federated Graph Unlearning",
-    "venue": "AAAI 2026 (Accepted)",
+    "authors": "Longlong Lin, Yue He, Wei Chen, Pingpeng Yuan, Rong-Hua Li, Tao Jia",
+    "title": "Effective and Efficient Conductance-based Community Search at Billion Scale",
+    "venue": "IEEE Transactions on Big Data, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Yichun Yang, Longlong Lin, Rong-Hua Li*, Meihao Liao, Guoren Wang",
+    "title": "Theoretically and Practically Efficient Resistance Distance Computation on Large Graphs",
+    "venue": "VLDB 2026",
+    "pdf": null,
+    "code": null,
+    "class": "AGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Xiang Wu, Rong-Hua Li*, Zhaoxin Fan, Kai Chen, Yujin Gao, Hongchao Qin, Guoren Wang",
+    "title": "GRPCI: Harnessing Temporal-Spatial Dynamics for Graph Representation Learning",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
     "pdf": null,
     "code": null,
     "class": "GLLLM"
@@ -40,6 +49,78 @@
     "authors": "Jiaqi Jiang, Rong-Hua Li*, Longlong Lin, Yalong Zhang, Yue Zeng, Xiaowei Ye, Guoren Wang",
     "title": "Pseudoarboricity-Based Skyline Important Community Search in Large Networks",
     "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Xi Ou, Longlong Lin, Zeli Wang, Pingpeng Yuan, Rong-Hua Li",
+    "title": "Scalable Similarity Search over Large Attributed Bipartite Graphs",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Yichun Yang, Rong-Hua Li*, Meihao Liao, Guoren Wang",
+    "title": "AdaPush: An adaptive Push Framework for Graph-Propagation Based Node Similarity Computation",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering, 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "AGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Meihao Liao, Rong-Hua Li*, Qiangqiang Dai, Guoren Wang",
+    "title": "Scaling up Electrical Closeness Centrality Computation",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Jiayi Wu, Zhengyu Wu, Xunkai Li, Rong-Hua Li*, Hongchao Qin, Guoren Wang",
+    "title": "Effective Bug Detection in Graph Database Engines: An LLM-based Approach",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "GLLLM"
+  },
+  {
+    "year": 2026,
+    "authors": "Bowen Fan, Zhilin Guo, Xunkai Li, Yihan Zhou, Bing Zhou, Zhenjun Li, Rong-Hua Li*, Guoren Wang",
+    "title": "Unveiling the Vulnerability of Graph-LLMs: An Interpretable Multi-Dimensional Adversarial Attack on TAGs",
+    "venue": "WWW 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "GLLLM"
+  },
+  {
+    "year": 2026,
+    "authors": "Longlong Lin, Zeli Wang, Rong-Hua Li, Xiaohai Dai, Li Ni, Jin Zhao",
+    "title": "Scalable and Provable Biclique-Preserving Clustering: The Power of Counting-based Approaches",
+    "venue": "WWW 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2026,
+    "authors": "Yuming Ai, Xunkai Li, Jiaqi Chao, Bowen Fan, Zhengyu Wu, Yinlin Zhu, Rong-Hua Li*, Guoren Wang",
+    "title": "PAGE: A Unified Approach for Federated Graph Unlearning",
+    "venue": "AAAI 2026 (Accepted)",
+    "pdf": null,
+    "code": null,
+    "class": "GLLLM"
+  },
+  {
+    "year": 2026,
+    "authors": "Jiaqi Jiang, Rong-Hua Li*, Yalong Zhang",
+    "title": "Density Decomposition of Multilayer Graphs",
+    "venue": "ICDE 2026 (Accepted)",
     "pdf": null,
     "code": null,
     "class": "CGA"
@@ -91,15 +172,6 @@
   },
   {
     "year": 2026,
-    "authors": "Qi Zhang, Rong-Hua Li*, Yalong Zhang, Hongchao Qin, Guoren Wang",
-    "title": "Density Decomposition on Large Static and Dynamic Graphs: Algorithms and Applications",
-    "venue": "VLDB Journal (Accepted)",
-    "pdf": null,
-    "code": null,
-    "class": "CGA"
-  },
-  {
-    "year": 2026,
     "authors": "Junjie Zhou, Meihao Liao, Rong-Hua Li*, Longlong Lin, Guoren Wang*",
     "title": "One Index for All: Towards Efficient Personalized PageRank Computation for Every Damping Factor",
     "venue": "SIGMOD 2026 (Accepted)",
@@ -121,15 +193,6 @@
     "authors": "Xiaowei Ye, Rong-Hua Li*, Guoren Wang*",
     "title": "The Power of Core Clique Removal for Exact Clique Enumeration",
     "venue": "SIGMOD 2026 (Accepted)",
-    "pdf": null,
-    "code": null,
-    "class": "CGA"
-  },
-  {
-    "year": 2026,
-    "authors": "Longlong Lin, Yue He, Wei Chen, Pingpeng Yuan, Rong-Hua Li, Tao Jia",
-    "title": "Effective and Efficient Conductance-based Community Search at Billion Scale",
-    "venue": "IEEE Transactions on Big Data, 2026 (Accepted)",
     "pdf": null,
     "code": null,
     "class": "CGA"
@@ -230,6 +293,15 @@
     "title": "Constant-time Connectivity Querying in Dynamic Graphs",
     "venue": "SIGMOD 2025",
     "pdf": "https://ronghuali.github.io/PaperFiles/Constant-time Connectivity Querying in Dynamic Graphs.pdf",
+    "code": null,
+    "class": "CGA"
+  },
+  {
+    "year": 2025,
+    "authors": "Qi Zhang, Rong-Hua Li*, Yalong Zhang, Hongchao Qin, Guoren Wang",
+    "title": "Density Decomposition on Large Static and Dynamic Graphs: Algorithms and Applications",
+    "venue": "VLDB Journal 2025",
+    "pdf": null,
     "code": null,
     "class": "CGA"
   },
@@ -528,7 +600,7 @@
     "venue": "CIKM 2024",
     "pdf": "https://ronghuali.github.io/PaperFiles/Privacy-Preserving Graph Embedding based on Local Differential.pdf",
     "code": "https://github.com/Zening-Li/PrivGE",
-    "class": "AGA"
+    "class": "GLLLM"
   },
   {
     "year": 2024,
@@ -598,7 +670,7 @@
     "authors": "Sen Gao, Hongchao Qin, Rong-Hua Li*, Bingsheng He",
     "title": "Parallel Colorful h-star Core Maintenance in Dynamic Graphs",
     "venue": "VLDB 2023",
-    "pdf": "https://ronghuali.github.io/PaperFiles/Parallel Colorful ℎ-star Core Maintenance in Dynamic Graphs.pdf",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Parallel Colorful ℎstar Core Maintenance in Dynamic Graphs.pdf",
     "code": "https://github.com/ronghuali/ColorfulStarLocal",
     "class": "CGA"
   },
@@ -645,7 +717,7 @@
     "venue": "TKDE 2023",
     "pdf": "https://ronghuali.github.io/PaperFiles/Temporal_Graph_Cube.pdf",
     "code": null,
-    "class": "GLLLM"
+    "class": "CGA"
   },
   {
     "year": 2023,
@@ -1170,11 +1242,11 @@
     "class": "CGA"
   },
   {
-    "year": 2013,
+    "year": 2015,
     "authors": "Xin Huang, Hong Cheng, Rong-Hua Li, Lu Qin, Jeffrey Xu Yu",
-    "title": "Top-K Structural Diversity Search in Large Networks",
-    "venue": "PVLDB 6(13): 1618-1629 (2013)",
-    "pdf": "https://ronghuali.github.io/PaperFiles/Top-K Structural Diversity Search in Large Networks(2013).pdf",
+    "title": "Top-K structural diversity search in large networks",
+    "venue": "VLDB Journal 24(3): 319-343 (2015)",
+    "pdf": "https://ronghuali.github.io/PaperFiles/Top-K structural diversity search in large networks(2015).pdf",
     "code": null,
     "class": "CGA"
   },
